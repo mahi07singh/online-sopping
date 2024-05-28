@@ -1,0 +1,13 @@
+.footerLink {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  background-color: black;
+}
+.copyRightText{
+    color: #3ae1ca;
+}
