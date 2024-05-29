@@ -26,6 +26,11 @@
   color: var(--active-color) !important;
 }
 
+.dropdownMenu {
+  z-index: 1050; /* Adjust the value if needed */
+  /* position: relative; */
+}
+
 .searchButton:hover {
   color: var(--primary-text-color) !important;
 }

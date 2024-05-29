@@ -8,6 +8,7 @@
   /* colors */
   --green-color: #008000;
   --white: #ffffff;
+  --black: #000000;
 
   /* font Styles */
   -font-h1: 1.8rem;
@@ -47,7 +48,6 @@
   --btn-secondare-color: #5c636a;
   --btn-secondare-border-color: #5c636a;
   --link-color: #0f7999;
-  --black: #000000;
   --icon: #cccccc;
   --main: #2b2b2b;
   --label-border-color: #65adff;
@@ -93,7 +93,13 @@ body {
   font-family: 'Roboto Slab', serif;
 }
 section {
-  /* padding-top: 50px; */
+  padding-top: 50px;
   padding-bottom: 50px;
   width: 100%;
+}
+btn,
+.card,
+input,
+select {
+  border-radius: 4px !important;
 }

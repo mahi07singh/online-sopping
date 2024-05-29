@@ -3,8 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import { Link, NavLink, useLocation } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import Styles from '../../styles/common/header.module.css';
 import { useState, useEffect, useCallback } from 'react';
 import classnames from 'classnames';
@@ -104,37 +103,6 @@ const Header = () => {
             >
               Contact
             </Nav.Link>
-            <NavDropdown
-              title="Link"
-              className={Styles.navLink}
-              id="navbarScrollingDropdown"
-            >
-              <NavDropdown.Item
-                as={Link}
-                to="/"
-                className={Styles.navLink}
-                onClick={handleClose}
-              >
-                Action
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                as={Link}
-                to="/"
-                className={Styles.navLink}
-                onClick={handleClose}
-              >
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item
-                as={Link}
-                to="/"
-                className={Styles.navLink}
-                onClick={handleClose}
-              >
-                Something else here
-              </NavDropdown.Item>
-            </NavDropdown>
           </Nav>
           <Form className="d-flex">
             <Form.Control

@@ -10,6 +10,10 @@ import PrivacyPolicy from './pages/privacy-policy';
 import TermsCondition from './pages/terms-conditions';
 import Help from './pages/help';
 import Cookies from './pages/cookies';
+import MobilePhones from './pages/mobile-phone';
+import Camera from './pages/camera';
+import WifiAdapter from './pages/wifi-adapter';
+import Subwoofer from './pages/subwoofer';
 
 const App = () => {
   return (
@@ -23,6 +27,10 @@ const App = () => {
         <Route path="/terms-conditions" element={<TermsCondition />} />
         <Route path="/cookies" element={<Cookies />} />
         <Route path="/help" element={<Help />} />
+        <Route path="/mobile-phones" element={<MobilePhones />} />
+        <Route path="/camera" element={<Camera />} />
+        <Route path="/wifi-adapter" element={<WifiAdapter />} />
+        <Route path="/soundbar-subwoofer" element={<Subwoofer />} />
       </Routes>
       <Footer />
     </>

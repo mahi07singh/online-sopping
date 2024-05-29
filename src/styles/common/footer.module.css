@@ -1,12 +1,18 @@
+.footerSection {
+  padding-bottom: 0 !important;
+  background-color: var(--black);
+}
+
 .footerLink {
   text-decoration: none;
   color: var(--primary-color);
 }
+
 .footer {
   bottom: 0;
   width: 100%;
-  background-color: black;
 }
-.copyRightText{
-    color: #3ae1ca;
+
+.copyRightText {
+  color: var(--primary-text-color);
 }
