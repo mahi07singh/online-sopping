@@ -6,13 +6,18 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import Styles from '../../styles/common/header.module.css';
-import { useState } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import classnames from 'classnames';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Header = () => {
   // State to track the expansion of the navbar
   const [expanded, setExpanded] = useState(false);
   const location = useLocation();
+
+  // this is handling for scroll state
+  const [isScrollingUp, setIsScrollingUp] = useState(true);
+  let lastScrollY = window.pageYOffset;
 
   // Function to toggle the expanded state of the navbar
   const handleToggle = () => {
@@ -23,16 +28,37 @@ const Header = () => {
   const handleClose = () => {
     setExpanded(false);
   };
+
+  const handleScroll = useCallback(() => {
+    if (window.pageYOffset > lastScrollY) {
+      setIsScrollingUp(false);
+    } else {
+      setIsScrollingUp(true);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    lastScrollY = window.pageYOffset;
+  }, [lastScrollY]);
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [handleScroll]);
+
   return (
     <Navbar
       expand="lg"
       expanded={expanded}
-      className=""
+      className={classnames('', {
+        [Styles.hiddenHeader]: !isScrollingUp,
+        [Styles.visibleHeader]: isScrollingUp,
+      })}
       style={{ backgroundColor: '#ffbd59' }}
     >
       <Container>
         <Navbar.Brand as={NavLink} to="/">
-          <img
+          <LazyLoadImage
             src={`${process.env.PUBLIC_URL}/favicon.png`} // Public folder se image access
             width="30"
             height="30"
@@ -78,15 +104,34 @@ const Header = () => {
             >
               Contact
             </Nav.Link>
-            <NavDropdown title="Link" className={Styles.navLink} id="navbarScrollingDropdown">
-              <NavDropdown.Item as={Link} to="/" className={Styles.navLink} onClick={handleClose}>
+            <NavDropdown
+              title="Link"
+              className={Styles.navLink}
+              id="navbarScrollingDropdown"
+            >
+              <NavDropdown.Item
+                as={Link}
+                to="/"
+                className={Styles.navLink}
+                onClick={handleClose}
+              >
                 Action
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/" className={Styles.navLink} onClick={handleClose}>
+              <NavDropdown.Item
+                as={Link}
+                to="/"
+                className={Styles.navLink}
+                onClick={handleClose}
+              >
                 Another action
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} to="/" className={Styles.navLink} onClick={handleClose}>
+              <NavDropdown.Item
+                as={Link}
+                to="/"
+                className={Styles.navLink}
+                onClick={handleClose}
+              >
                 Something else here
               </NavDropdown.Item>
             </NavDropdown>
@@ -98,7 +143,9 @@ const Header = () => {
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-success" className={Styles.searchButton}>Search</Button>
+            <Button variant="outline-success" className={Styles.searchButton}>
+              Search
+            </Button>
           </Form>
         </Navbar.Collapse>
       </Container>

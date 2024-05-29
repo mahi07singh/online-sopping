@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
             {' '}
             {/* Center content vertically */}
             <p className={Styles.copyRightText}>
-              © 2024 All rights reserved, Diginto Pvt Ltd
+              © 2024 All rights reserved, Mohit's Shopping App
             </p>
             <p>
               <Link to="/" className={Styles.footerLink}>

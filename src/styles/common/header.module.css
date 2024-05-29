@@ -1,3 +1,14 @@
+/* header.module.css */
+.hiddenHeader {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.visibleHeader {
+  transform: translateY(0);
+  transition: transform 0.3s ease-in-out;
+}
+
 .navebarHeader {
   color: var(--primary-color);
 }
@@ -16,14 +27,12 @@
 }
 
 .searchButton:hover {
-  color: var(--primary-text-color)!important;
+  color: var(--primary-text-color) !important;
 }
-
 
 /* Media query for screens smaller than 290px */
 @media screen and (max-width: 290px) {
-    .navebarHeader {
-      display: none;
-    }
+  .navebarHeader {
+    display: none;
   }
-  
+}
