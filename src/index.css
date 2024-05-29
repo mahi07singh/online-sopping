@@ -1,13 +1,105 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --primary-color: #007403;
+  --secondary-color: #ffbd59;
+  --secondary-lite-color: #df5b44;
+  --primary-text-color: #3ae1ca;
+  --active-color: #5555e9;
+  
+  /* colors */
+  --green-color: #008000;
+  --white: #ffffff;
+  --black: #000000;
+
+  /* font Styles */
+  -font-h1: 1.8rem;
+  --font-h2: 1.5rem;
+  --font-h3: 1.2rem;
+  --font-h4: 1rem;
+  --font-h5: 0.9rem;
+  --font-h6: 0.6rem;
+  --font-size-1: 0.6rem;
+  --font-size-2: 0.8rem;
+  --font-size-3: 0.9rem;
+  --font-size-4: 1rem;
+  --font-size-5: 1.5rem;
+  --font-size-6: 2rem;
+  --font-heading-bold: 700;
+  --font-lable-bold: 700;
+  --font-para-bold: 600;
+  --font-float-bold: 500;
+  --line-heading-height: 27.3px;
+  --line-para-height: 20.9625px;
+  --line-lable-height: 21.45px;
+  --line-float-height: 20.9625px;
+  /*--dark-color: #25180f;
+  --primary-fade: rgba(8,44,38, 0.2);
+  --header-text-color: #ffffff;
+  --light: #dedcdc;
+  --dark: #071437;
+  --dark-light: #585757;
+  --gray: #fcfcfc;
+  --container-border: #cccccc;
+  --container-border-fade: #eeeeee;
+  --list-item-border-radius: 2px;
+  --btn-border-radius: 2px;
+  --btn-border: 0px;
+  --input-box-border-radius: 7.6px;
+  --btn-border-color: #e0e0e0;
+  --btn-secondare-color: #5c636a;
+  --btn-secondare-border-color: #5c636a;
+  --link-color: #0f7999;
+  --icon: #cccccc;
+  --main: #2b2b2b;
+  --label-border-color: #65adff;
+  --bg-color: #f1faff;
+  --form-border-color: #dee2e6;
+  --ag-column-custom: #ff0000;
+  --present-tile: #008000;
+  --leave-tile: #ffff00;
+  --scroller-bg-color: #f0eeeb;
+  --box-shadow-bottom: 0px 2px 4px 0px var(--container-border);
+  --box-shadow-right: 2px 0px 5px 0px var(--container-border);
+  --font-h1: 1.8rem;
+  --font-h2: 1.5rem;
+  --font-h3: 1.2rem;
+  --font-h4: 1rem;
+  --font-h5: 0.9rem;
+  --font-h6: 0.6rem;
+  --font-size-1: 0.6rem;
+  --font-size-2: 0.8rem;
+  --font-size-3: 0.9rem;
+  --font-size-4: 1rem;
+  --font-size-5: 1.5rem;
+  --font-size-6: 2rem;
+  --font-heading-bold: 700;
+  --font-lable-bold: 700;
+  --font-para-bold: 600;
+  --font-float-bold: 500;
+  --line-heading-height: 27.3px;
+  --line-para-height: 20.9625px;
+  --line-lable-height: 21.45px;
+  --line-float-height: 20.9625px;
+  --sidebar-collapsed-width: 68px;
+  --sidebar-expended-width: 260px;
+  --sidebar-collapsed-margin-for-container: 68px;
+  --sidebar-expended-margin-for-container: 260px;
+  --sidebar-transition-for-header-container: all 0.5s ease-in-out;
+  --sidebar-header-padding: 5%;
+  --dashboard-height: 83vh;
+*/
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Roboto Slab', serif;
+}
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+btn,
+.card,
+input,
+select {
+  border-radius: 4px !important;
 }
