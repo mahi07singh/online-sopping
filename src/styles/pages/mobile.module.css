@@ -1,0 +1,21 @@
+.pointer {
+  cursor: pointer;
+}
+.imgBox {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 7px;
+  justify-content: center;
+  text-align: center;
+}
+.firstColText {
+  margin-top: 4%;
+  text-align: left;
+  justify-content: center;
+  display: block;
+}
+.imageStyle {
+  width: 35%;
+  margin-bottom: 10px;
+  margin: 2px;
+}

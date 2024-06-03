@@ -234,7 +234,7 @@ const Home: React.FC = () => {
                 </p>
                 <Button
                   className={Styles.carouselButton}
-                  variant="outline-info"
+                  variant="outline-light"
                   onClick={handleClick}
                 >
                   Contacts
