@@ -1,0 +1,25 @@
+.align-item {
+  text-align: center;
+}
+.align-item-start {
+  text-align: left;
+}
+.align-item-end {
+  text-align: right;
+}
+.text-color-bl {
+  color: var(--black);
+}
+.text-color-wh {
+  color: var(--white);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
