@@ -1,43 +1,111 @@
-import React from 'react';
+import { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { Carousel, Container, Row, Col, Button, Card } from 'react-bootstrap';
 import Styles from '../styles/pages/home.module.css';
 import { useNavigate } from 'react-router-dom';
+import { FaArrowRight, FaShoppingCart } from 'react-icons/fa';
 
 const Home: React.FC = () => {
+  // this is state for show and hide
+  const [isShowContent, setIsShowContent] = useState(false);
+  // this is state for show and hide
+  const [isShowSptContent, setIsShowSptContent] = useState(false);
+
+  // navigate to oter page
   const navigate = useNavigate();
   // Function to handle button click
   const handleFstButtonClick = () => {
     // Open the Amazon link in a new tab
-    window.open(
-      'https://amzn.to/3R4b4wq',
-      '_blank'
-    );
+    window.open('https://amzn.to/3R4b4wq', '_blank');
   };
 
   // Function to handle button click
   const handleSecButtonClick = () => {
     // Open the Amazon link in a new tab
-    window.open(
-      'https://amzn.to/3R60qoK',
-      '_blank'
-    );
+    window.open('https://amzn.to/3R60qoK', '_blank');
   };
 
   // Function to handle button click
   const handleThdButtonClick = () => {
     // Open the Amazon link in a new tab
-    window.open(
-      'https://amzn.to/3wReKe9',
-      '_blank'
-    );
+    window.open('https://amzn.to/3wReKe9', '_blank');
   };
 
   // Function to handle button click
   const handleFrthButtonClick = () => {
     // Open the Amazon link in a new tab
+    window.open('https://amzn.to/4e2YW8I', '_blank');
+  };
+
+  // Function to handle button click
+  const handleLedButtonClick = () => {
+    // Open the Amazon link in a new tab
     window.open(
-      'https://amzn.to/4e2YW8I',
+      'https://amzn.to/3X84HMp',
+      '_blank'
+    );
+  };
+
+  // Function to handle button click
+  const handleFrzButtonClick = () => {
+    // Open the Amazon link in a new tab
+    window.open(
+      'https://amzn.to/3yL5WXX',
+      '_blank'
+    );
+  };
+
+  // second sports section
+  // Function to handle button click
+  const handleSprtFirButtonClick = () => {
+    // Open the Amazon link in a new tab
+    window.open(
+      'https://amzn.to/3Ku4J9W',
+      '_blank'
+    );
+  };
+
+  // Function to handle button click
+  const handleSprtSecButtonClick = () => {
+    // Open the Amazon link in a new tab
+    window.open(
+      'https://amzn.to/4e8hPqT',
+      '_blank'
+    );
+  };
+
+  // Function to handle button click
+  const handleSprtArcButtonClick = () => {
+    // Open the Amazon link in a new tab
+    window.open(
+      'https://amzn.to/3X6ASvC',
+      '_blank'
+    );
+  };
+
+  // Function to handle button click
+  const handleSprtBtmnButtonClick = () => {
+    // Open the Amazon link in a new tab
+    window.open(
+      'https://www.amazon.in/Hipkoo-Full-Badminton-Racket-Shuttlecocks/dp/B07CM7ZYY6/ref=sr_1_19?content-id=amzn1.sym.5e455782-2b09-4126-83e3-a9dbac6d07bb%3Aamzn1.sym.5e455782-2b09-4126-83e3-a9dbac6d07bb&dib=eyJ2IjoiMSJ9.PoAw28xWXNxkvO1FUfDTBPo-df5OCApin6qKHYslCrxF3xnw7cIP_-P_qHEkMUhFVlSciVdxfee64oyi8Bh5KDd7kTwpi0e1LVPrcJlTUILnknKeMFShGw_RkGDB0r8CeI_9Nyo5CJKr-jqXWKPQE6W2z-fJq-EEuvPzXV-E8t1-EqOCVTMqw7Re09a4ZBfSTLAs64wQV1_B2CoxSDJGuxZARGi3ES8NvMvnqQXt0Io-xBmHeY0qtX68i35vOoZi2gEnzHXZvqc3H9vEb8WkxwzgHgxdCzXYS_mGJPXFrSU.3UcjERnLTBmejzqRcbLFkqaleGrIVDNhyxtlDkwlZHI&dib_tag=se&keywords=sports+items&pd_rd_r=b0032109-14e9-4815-b2c4-14edd8bc3f5e&pd_rd_w=ZPf8P&pd_rd_wg=pdp5e&pf_rd_p=5e455782-2b09-4126-83e3-a9dbac6d07bb&pf_rd_r=3BC81N4SSWYEZG3V9H2Q&qid=1717400407&sr=8-19',
+      '_blank'
+    );
+  };
+
+  // Function to handle button click
+  const handleSprtWCrKitButtonClick = () => {
+    // Open the Amazon link in a new tab
+    window.open(
+      'https://amzn.to/3KuvKKm',
+      '_blank'
+    );
+  };
+
+  // Function to handle button click
+  const handleSprtMCrKitButtonClick = () => {
+    // Open the Amazon link in a new tab
+    window.open(
+      'https://amzn.to/3VaNVcL',
       '_blank'
     );
   };
@@ -45,7 +113,7 @@ const Home: React.FC = () => {
   // Function to handle image click
   const handleFstImageClick = () => {
     // Navigate to the /about-us route
-    navigate('/mobile-phones');
+    navigate('/mobile-phones#Redmi125G');
   };
 
   // Function to handle image click
@@ -66,6 +134,55 @@ const Home: React.FC = () => {
     navigate('/soundbar-subwoofer');
   };
 
+  // Function to handle image click
+  const handleLedImageClick = () => {
+    // Navigate to the /about-us route
+    navigate('/led-television');
+  };
+
+  // Function to handle image click
+  const handleFrzImageClick = () => {
+    // Navigate to the /about-us route
+    navigate('/freezes');
+  };
+
+  // seconed section for sports images links
+  // Function to handle image click
+  const handleSptFImageClick = () => {
+    // Navigate to the /about-us route
+    navigate('/sports-t-shirts');
+  };
+
+  // Function to handle image click
+  const handleSptSecImageClick = () => {
+    // Navigate to the /about-us route
+    navigate('/sports-spike-shoes');
+  };
+
+  // Function to handle image click
+  const handleSptArcImageClick = () => {
+    // Navigate to the /about-us route
+    navigate('/sports-archery');
+  };
+
+  // Function to handle image click
+  const handleSptBtmnImageClick = () => {
+    // Navigate to the /about-us route
+    navigate('/sports-badminton');
+  };
+
+  // Function to handle image click
+  const handleSptWCrKitImageClick = () => {
+    // Navigate to the /about-us route
+    navigate('/sports-wcriket-kit');
+  };
+
+  // Function to handle image click
+  const handleSptMCrKitImageClick = () => {
+    // Navigate to the /about-us route
+    navigate('/sports-mcriket-kit');
+  };
+
   // Function to navigate to contact
   const handleClick = () => {
     // Navigate to the /about-us route
@@ -75,22 +192,35 @@ const Home: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title className="header-title">Home - Mohit's Shopping App</title>
+        <title>Home - Mohit's Shopping App</title>
         <meta
           name="description"
           content="Discover the best deals on home goods, kitchenware, clothing, jewelry, and tech gadgets at Mohit's Shopping App."
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:title" content="Home - Mohit's Shopping App" />
+        <meta
+          property="og:description"
+          content="Discover the best deals on home goods, kitchenware, clothing, jewelry, and tech gadgets at Mohit's Shopping App."
+        />
+        <meta
+          property="og:image"
+          content={`${process.env.PUBLIC_URL}/favicon.png`}
+        />
+        <meta property="og:url" content="#" />
       </Helmet>
+      {/* Main Heading of the Home Page */}
+      <h1 className="visually-hidden">Home - Online Shopping App & Website</h1>
       {/* This is the First Section of Home Page */}
       <section className={Styles.carouselSection}>
-        <Container fluid style={{ padding: 0, margin: 0 }}>
+        <Container fluid className={Styles.firstContainer}>
           <Carousel interval={2000}>
             <Carousel.Item>
               <div className={Styles.overlay}></div>
               <img
                 className={`${Styles.carouselImage} w-100`}
                 src={`${process.env.PUBLIC_URL}/slide1.png`}
-                alt="Not Supported"
+                alt="Fashionable clothing for girls"
               />
               <Carousel.Caption className={Styles.carouselCaption}>
                 <p className={Styles.carouselTitle}>
@@ -109,7 +239,11 @@ const Home: React.FC = () => {
                 >
                   Contacts
                 </Button>
-                <Button className={Styles.carouselButton} variant="info">
+                <Button
+                  className={Styles.carouselButton}
+                  variant="info"
+                  href="/products"
+                >
                   Products
                 </Button>
               </Carousel.Caption>
@@ -179,8 +313,8 @@ const Home: React.FC = () => {
       <section style={{ backgroundColor: 'gray' }}>
         <Container>
           <Row className="justify-content-center mb-3">
-            <Col xs={12} sm={12} md={4}>
-              <h1 className="text-white">Electronic Gadgets</h1>
+            <Col xs={12} sm={12} md={4} className="align-item">
+              <h2 className="text-white">Electronic Gadgets</h2>
             </Col>
           </Row>
           <Row className="justify-content-center">
@@ -191,6 +325,7 @@ const Home: React.FC = () => {
                   src={`${process.env.PUBLIC_URL}/images/home/first.png`}
                   onClick={handleFstImageClick}
                   className={`${Styles.cardImage} ${Styles.pointer}`}
+                  alt="This Image is not Supported."
                 />
                 <hr className={Styles.hr} />
                 <Card.Body>
@@ -199,8 +334,11 @@ const Home: React.FC = () => {
                     Redmi 12 5G Pastel Blue 4GB RAM 128GB ROM
                   </Card.Text>
                   {/* Button with onClick event to open Amazon link in new tab */}
-                  <Button variant="primary" onClick={handleFstButtonClick}>
-                    Buy Now
+                  <Button
+                    variant="outline-primary"
+                    onClick={handleFstButtonClick}
+                  >
+                    Buy Now <FaShoppingCart style={{ marginLeft: '3px' }} />
                   </Button>
                 </Card.Body>
               </Card>
@@ -212,6 +350,7 @@ const Home: React.FC = () => {
                   src={`${process.env.PUBLIC_URL}/images/home/second.png`}
                   className={`${Styles.cardImage} ${Styles.pointer}`}
                   onClick={handleSecImageClick}
+                  alt="This Image is not Supported."
                 />
                 <hr className={Styles.hr} />
                 <Card.Body>
@@ -219,8 +358,11 @@ const Home: React.FC = () => {
                   <Card.Text>
                     Generic AR9271 802.11n 150 Mbps Wireless USB
                   </Card.Text>
-                  <Button variant="primary" onClick={handleSecButtonClick}>
-                    Buy Now
+                  <Button
+                    variant="outline-primary"
+                    onClick={handleSecButtonClick}
+                  >
+                    Buy Now <FaShoppingCart style={{ marginLeft: '3px' }} />
                   </Button>
                 </Card.Body>
               </Card>
@@ -232,6 +374,7 @@ const Home: React.FC = () => {
                   src={`${process.env.PUBLIC_URL}/images/home/third.png`}
                   onClick={handleThdImageClick}
                   className={`${Styles.cardImage} ${Styles.pointer}`}
+                  alt="This Image is not Supported."
                 />
                 <hr className={Styles.hr} />
                 <Card.Body>
@@ -240,8 +383,11 @@ const Home: React.FC = () => {
                     For Youtube, 3 Inch Ips 64Mp Digital Camera
                   </Card.Text>
                   {/* Button with onClick event to open Amazon link in new tab */}
-                  <Button variant="primary" onClick={handleThdButtonClick}>
-                    Buy Now
+                  <Button
+                    variant="outline-primary"
+                    onClick={handleThdButtonClick}
+                  >
+                    Buy Now <FaShoppingCart style={{ marginLeft: '3px' }} />
                   </Button>
                 </Card.Body>
               </Card>
@@ -253,6 +399,7 @@ const Home: React.FC = () => {
                   src={`${process.env.PUBLIC_URL}/images/home/fourth.png`}
                   className={`${Styles.cardImage} ${Styles.pointer}`}
                   onClick={handleFrthImageClick}
+                  alt="This Image is not Supported."
                 />
                 <hr className={Styles.hr} />
                 <Card.Body>
@@ -260,68 +407,270 @@ const Home: React.FC = () => {
                   <Card.Text>
                     Generic AR9271 802.11n 150 Mbps Wireless USB
                   </Card.Text>
-                  <Button variant="primary" onClick={handleFrthButtonClick}>
-                    Buy Now
+                  <Button
+                    variant="outline-primary"
+                    onClick={handleFrthButtonClick}
+                  >
+                    Buy Now <FaShoppingCart style={{ marginLeft: '3px' }} />
                   </Button>
                 </Card.Body>
               </Card>
             </Col>
           </Row>
+          {isShowContent ? (
+            <section>
+              <Container>
+                <Row className="justify-content-center">
+                  <Col xs={12} sm={12} md={6} lg={6} xl={6} xxl={6}>
+                    <Card className={Styles.fSecCard}>
+                      <Card.Img
+                        variant="top"
+                        src={`${process.env.PUBLIC_URL}/images/home/led.png`}
+                        onClick={handleLedImageClick}
+                        className={`${Styles.cardImage} ${Styles.pointer}`}
+                        alt="This Image is not Supported."
+                      />
+                      <hr className={Styles.hr} />
+                      <Card.Body>
+                        <Card.Title>Ultra HD Smart LED</Card.Title>
+                        <Card.Text>
+                          TCL 139 cm Metallic Bezel-Less Series 4K Ultra HD
+                          Smart LED
+                        </Card.Text>
+                        <Button
+                          variant="outline-primary"
+                          onClick={handleLedButtonClick}
+                        >
+                          Buy Now{' '}
+                          <FaShoppingCart style={{ marginLeft: '3px' }} />
+                        </Button>
+                      </Card.Body>
+                    </Card>
+                  </Col>
+                  <Col xs={12} sm={12} md={6} lg={6} xl={6} xxl={6}>
+                    <Card className={Styles.fSecCard}>
+                      <Card.Img
+                        variant="top"
+                        src={`${process.env.PUBLIC_URL}/images/home/freeze.png`}
+                        className={`${Styles.cardImage} ${Styles.pointer}`}
+                        onClick={handleFrzImageClick}
+                        alt="This Image is not Supported."
+                      />
+                      <hr className={Styles.hr} />
+                      <Card.Body>
+                        <Card.Title>Samsung 183 L, 4 Star</Card.Title>
+                        <Card.Text>
+                          Digital Inverter, Direct-Cool Single Door Refrigerator
+                        </Card.Text>
+                        <Button
+                          variant="outline-primary"
+                          onClick={handleFrzButtonClick}
+                        >
+                          Buy Now{' '}
+                          <FaShoppingCart style={{ marginLeft: '3px' }} />
+                        </Button>
+                      </Card.Body>
+                    </Card>
+                  </Col>
+                </Row>
+              </Container>
+            </section>
+          ) : (
+            <Row className="justify-content-center mt-3">
+              <Col xs={12} sm={12} md={2} className="align-item">
+                <Button
+                  className="align-item"
+                  variant="outline-info"
+                  onClick={() => setIsShowContent(true)}
+                >
+                  View More <FaArrowRight style={{ marginLeft: '3px' }} />
+                </Button>
+              </Col>
+            </Row>
+          )}
         </Container>
       </section>
       {/* This is the Third Section of Home Page */}
-      {/* <section>
-        <Row className="justify-content-center mb-3">
-          <Col xs={12} sm={12} md={4} lg={4} xl={4} xxl={4}>
-            <h1 className="text-center text-black">Electronic Gadgets</h1>
-          </Col>
-        </Row>
+      <section>
         <Container>
+          <Row className="justify-content-center mb-3">
+            <Col xs={12} sm={12} md={4} className="align-item">
+              <h2>Sports Equipment</h2>
+            </Col>
+          </Row>
           <Row className="justify-content-center">
-            <Col xs={12} sm={12} md={6} lg={6} xl={6} xxl={6}>
-              <Card>
+            <Col xs={12} sm={12} md={3} lg={3} xl={3} xxl={3}>
+              <Card className={Styles.secSecCard}>
                 <Card.Img
                   variant="top"
-                  src={`${process.env.PUBLIC_URL}/images/home/first.png`}
-                  onClick={handleFstImageClick}
-                  className={`${Styles.pointer}`}
+                  src={`${process.env.PUBLIC_URL}/images/home/virat.png`}
+                  onClick={handleSptFImageClick}
+                  className={`${Styles.cardSecImage} ${Styles.pointer}`}
+                  alt="This Image is not Supported."
                 />
                 <hr className={Styles.hr} />
                 <Card.Body>
-                  <Card.Title>Redmi 12 5G</Card.Title>
+                  <Card.Title>India t20 Jersey</Card.Title>
                   <Card.Text>
-                    Redmi 12 5G Pastel Blue 4GB RAM 128GB ROM
+                    Positivity Sports India t20 Jersey 2024 World Cup
                   </Card.Text>
-                  {/* Button with onClick event to open Amazon link in new tab
-                  <Button variant="primary" onClick={handleFstButtonClick}>
-                    Buy Now
+                  {/* Button with onClick event to open Amazon link in new tab */}
+                  <Button
+                    variant="outline-primary"
+                    onClick={handleSprtFirButtonClick}
+                  >
+                    Buy Now <FaShoppingCart style={{ marginLeft: '3px' }} />
                   </Button>
                 </Card.Body>
               </Card>
             </Col>
-            <Col xs={12} sm={12} md={6} lg={6} xl={6} xxl={6}>
-              <Card>
+            <Col xs={12} sm={12} md={3} lg={3} xl={3} xxl={3}>
+              <Card className={Styles.secSecCard}>
                 <Card.Img
                   variant="top"
-                  src={`${process.env.PUBLIC_URL}/images/home/second.png`}
-                  className={`${Styles.pointer}`}
-                  onClick={handleSecImageClick}
+                  src={`${process.env.PUBLIC_URL}/images/home/spike.png`}
+                  className={`${Styles.cardSecImage} ${Styles.pointer}`}
+                  onClick={handleSptSecImageClick}
+                  alt="This Image is not Supported."
                 />
                 <hr className={Styles.hr} />
                 <Card.Body>
-                  <Card.Title>WiFi Adapter</Card.Title>
+                  <Card.Title>Turbo Running Spikes</Card.Title>
                   <Card.Text>
-                    Generic AR9271 802.11n 150 Mbps Wireless USB
+                    Athletic Spikes Track & Field Shoes for Mens Spikes
                   </Card.Text>
-                  <Button variant="primary" onClick={handleSecButtonClick}>
-                    Go somewhere
+                  <Button
+                    variant="outline-primary"
+                    onClick={handleSprtSecButtonClick}
+                  >
+                    Buy Now <FaShoppingCart style={{ marginLeft: '3px' }} />
+                  </Button>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col xs={12} sm={12} md={3} lg={3} xl={3} xxl={3}>
+              <Card className={Styles.secSecCard}>
+                <Card.Img
+                  variant="top"
+                  src={`${process.env.PUBLIC_URL}/images/home/archery.png`}
+                  onClick={handleSptArcImageClick}
+                  className={`${Styles.cardSecImage} ${Styles.pointer}`}
+                  alt="This Image is not Supported."
+                />
+                <hr className={Styles.hr} />
+                <Card.Body>
+                  <Card.Title>Sports Super Archery </Card.Title>
+                  <Card.Text>
+                    Archery Bow and Arrow Set with Dart Target Board
+                  </Card.Text>
+                  {/* Button with onClick event to open Amazon link in new tab */}
+                  <Button
+                    variant="outline-primary"
+                    onClick={handleSprtArcButtonClick}
+                  >
+                    Buy Now <FaShoppingCart style={{ marginLeft: '3px' }} />
+                  </Button>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col xs={12} sm={12} md={3} lg={3} xl={3} xxl={3}>
+              <Card className={Styles.secSecCard}>
+                <Card.Img
+                  variant="top"
+                  src={`${process.env.PUBLIC_URL}/images/home/badminton.png`}
+                  className={`${Styles.cardSecImage} ${Styles.pointer}`}
+                  onClick={handleSptBtmnImageClick}
+                  alt="This Image is not Supported."
+                />
+                <hr className={Styles.hr} />
+                <Card.Body>
+                  <Card.Title>Sports Badminton Kit</Card.Title>
+                  <Card.Text>
+                    2 Wide Body Shuttle Bat with Cover,10 Nylon Shuttles
+                  </Card.Text>
+                  <Button
+                    variant="outline-primary"
+                    onClick={handleSprtBtmnButtonClick}
+                  >
+                    Buy Now <FaShoppingCart style={{ marginLeft: '3px' }} />
                   </Button>
                 </Card.Body>
               </Card>
             </Col>
           </Row>
+          {isShowSptContent ? (
+            <section>
+              <Container>
+                <Row className="justify-content-center">
+                  <Col xs={12} sm={12} md={6} lg={6} xl={6} xxl={6}>
+                    <Card className={Styles.secSecCard}>
+                      <Card.Img
+                        variant="top"
+                        src={`${process.env.PUBLIC_URL}/images/home/wcricket-kit.png`}
+                        onClick={handleSptWCrKitImageClick}
+                        className={`${Styles.cardSecImage} ${Styles.pointer}`}
+                        alt="This Image is not Supported."
+                      />
+                      <hr className={Styles.hr} />
+                      <Card.Body>
+                        <Card.Title>CW SG Nylon Cricket Kit</Card.Title>
+                        <Card.Text>
+                          Combo with Spofly Brand Ideal for Age Between
+                          10 to 11 Year
+                        </Card.Text>
+                        <Button
+                          variant="outline-primary"
+                          onClick={handleSprtWCrKitButtonClick}
+                        >
+                          Buy Now
+                        </Button>
+                      </Card.Body>
+                    </Card>
+                  </Col>
+                  <Col xs={12} sm={12} md={6} lg={6} xl={6} xxl={6}>
+                    <Card className={Styles.secSecCard}>
+                      <Card.Img
+                        variant="top"
+                        src={`${process.env.PUBLIC_URL}/images/home/mcricket-kit.png`}
+                        className={`${Styles.cardSecImage} ${Styles.pointer}`}
+                        onClick={handleSptMCrKitImageClick}
+                        alt="This Image is not Supported."
+                      />
+                      <hr className={Styles.hr} />
+                      <Card.Body>
+                        <Card.Title>
+                          Virat Kolhi Complete Cricket Kit
+                        </Card.Title>
+                        <Card.Text>
+                          SQ SPORTS MRF Grand Edition (Genius) VK-18 Cricket Kit
+                        </Card.Text>
+                        <Button
+                          variant="outline-primary"
+                          onClick={handleSprtMCrKitButtonClick}
+                        >
+                          Buy Now
+                        </Button>
+                      </Card.Body>
+                    </Card>
+                  </Col>
+                </Row>
+              </Container>
+            </section>
+          ) : (
+            <Row className="justify-content-center mt-3">
+              <Col xs={12} sm={12} md={2} className="align-item">
+                <Button
+                  className="align-item "
+                  variant="outline-info"
+                  onClick={() => setIsShowSptContent(true)}
+                >
+                  View More <FaArrowRight style={{ marginLeft: '3px' }} />
+                </Button>
+              </Col>
+            </Row>
+          )}
         </Container>
-      </section> */}
+      </section>
     </>
   );
 };

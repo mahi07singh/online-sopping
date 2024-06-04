@@ -14,6 +14,14 @@ import MobilePhones from './pages/mobile-phone';
 import Camera from './pages/camera';
 import WifiAdapter from './pages/wifi-adapter';
 import Subwoofer from './pages/subwoofer';
+import LedTv from './pages/led';
+import Freezes from './pages/freezes';
+import SportsTShirts from './pages/sports-t-shirt';
+import SportsShoes from './pages/sports-shoes';
+import SportsArcery from './pages/sports-archery';
+import SportsBadminton from './pages/sports-badminton';
+import SportsWCricketKit from './pages/sports-wcriket-kit';
+import SportsMCricketKit from './pages/sports-mcriket-kit';
 
 const App = () => {
   return (
@@ -31,6 +39,14 @@ const App = () => {
         <Route path="/camera" element={<Camera />} />
         <Route path="/wifi-adapter" element={<WifiAdapter />} />
         <Route path="/soundbar-subwoofer" element={<Subwoofer />} />
+        <Route path="/led-television" element={<LedTv />} />
+        <Route path="/freezes" element={<Freezes />} />
+        <Route path="/sports-t-shirts" element={<SportsTShirts />} />
+        <Route path="/sports-spike-shoes" element={<SportsShoes />} />
+        <Route path="/sports-archery" element={<SportsArcery />} />
+        <Route path="/sports-badminton" element={<SportsBadminton />} />
+        <Route path="/sports-wcricket-kit" element={<SportsWCricketKit />} />
+        <Route path="/sports-mcricket-kit" element={<SportsMCricketKit />} />
       </Routes>
       <Footer />
     </>

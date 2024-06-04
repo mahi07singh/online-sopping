@@ -5,10 +5,16 @@
   --primary-text-color: #3ae1ca;
   --active-color: #5555e9;
   
+  
   /* colors */
   --green-color: #008000;
   --white: #ffffff;
   --black: #000000;
+
+  /* section background color */
+  --mobile-sec-one: #9decf7;
+  --mobile-sec-two: #97c7e8;
+  --mobile-sec-three: #fb6585;
 
   /* font Styles */
   -font-h1: 1.8rem;
