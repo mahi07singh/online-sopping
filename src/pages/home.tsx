@@ -41,7 +41,7 @@ const Home: React.FC = () => {
   const handleLedButtonClick = () => {
     // Open the Amazon link in a new tab
     window.open(
-      'https://www.amazon.in/TCL-inches-Metallic-Bezel-Less-55V6B/dp/B0CZ6NXNP8/ref=sr_1_2_sspa?dib=eyJ2IjoiMSJ9.Bu8kxZBvtXTXPj6WsMclJnEttgrd-ZGJVwIwyWLP8E2Bt8k7vz8jRJ5qrNZOBMNfIkthen-oPzmSIQViJcrcW_yXHVKnY4JvsuNmFeVshGCfnGglwDmNLbzpgsLz71ZKNltqhqZs7CmZoHzk_W0_eCs2wmIc8KEl7ysGvUHIIF9cjMmOH1DG7KIp82AAjJguvb4evqWTuPiwhD66QCEY5y1b1vmt7mTpd8qG7NEp4QU.nxoahYyoyuO_C4g_y3QtsE4_7r5R0DbSRHL4IgUtBX4&dib_tag=se&keywords=led&qid=1717386265&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1',
+      'https://amzn.to/3X84HMp',
       '_blank'
     );
   };
@@ -50,7 +50,7 @@ const Home: React.FC = () => {
   const handleFrzButtonClick = () => {
     // Open the Amazon link in a new tab
     window.open(
-      'https://www.amazon.in/Samsung-Inverter-Refrigerator-RR20C1824CR-HL/dp/B0BR4176V7/ref=sr_1_4?crid=1SQDLE51ICYPN&dib=eyJ2IjoiMSJ9.azx4eUzrODE1iNg0ejG2PNBH4727XQbvYAFEFarqOXfafCKU_HcdC5Q-xTlHXGZCN6p0PtxG1YPmrdopG8ca-RfwlYWc_e1KvYrsT2wnVKO5865HgpTbvuLwR1w_LYZbnJpbm6umsU9TaIEgN7wSPgX94a4r8umrtUR3P1OZuLQiQjZNvwOb6l2ne2PRGmN_7cH-my2U_5wmspleN_2lW-zD1C0KTbZ-zMyqqFPvqkI.oWNGPr9kA6h1sUHovLWPlXODG2yzU72MGDgLR8lJgQw&dib_tag=se&keywords=freeze&qid=1717386946&sprefix=freez%2Caps%2C1200&sr=8-4',
+      'https://amzn.to/3yL5WXX',
       '_blank'
     );
   };
@@ -60,7 +60,7 @@ const Home: React.FC = () => {
   const handleSprtFirButtonClick = () => {
     // Open the Amazon link in a new tab
     window.open(
-      'https://www.amazon.in/Positivity-Sports-India-Jersey-World/dp/B0D53HSTJ6/ref=sr_1_52?crid=1GWNHD0RSJK9Y&dib=eyJ2IjoiMSJ9._aMO9iMhNnhggMxaGViSJ62HXGqh6RoIX8JWGJL9wGXwJUu9hpIxj_kvAqXTCR6wTKqXKE5BV_yLMnZ1pMy8JgfBMLRnuiCjGSSZkC3iaUegUMF2vWazMzGALEaQGVI2dn49-ntgqyiav7mfBSvLj8aN1z_DffsTzEP-WhhZn7jPSk2-SaxvitGdgpmP6ZWdEp32b_d4lI7ahnt3jxZBSQ7f2e9_JAZhYqi4ukL7BFc3JYYDQghg3Cm3G4yJ1Z1vc3MxVHxJ_Ij8xvo237UtcLKj-31ohRCMxIJkbJNNTQg.Mu27JDXwHS87Q8lzf_LwB13zdK4IzBAV8huoQ5kt634&dib_tag=se&keywords=sports+equipment&qid=1717388026&sprefix=sports+eq%2Caps%2C1971&sr=8-52',
+      'https://amzn.to/3Ku4J9W',
       '_blank'
     );
   };
@@ -69,7 +69,7 @@ const Home: React.FC = () => {
   const handleSprtSecButtonClick = () => {
     // Open the Amazon link in a new tab
     window.open(
-      'https://www.amazon.in/Prokick-Running-Spikes-Athletic-Removeable/dp/B0CZXV83JB/ref=sr_1_1_sspa?crid=L7O6GWG0I7HH&dib=eyJ2IjoiMSJ9.Dk1H0zEYL09TyusjY97Ludv-u_ZzViC9m4pq1JOMiyr0MrCIFPdECL1PC8lNGjBUM4OeNpjkM8pXnw21nSgy35_PVjK8CljoKf9W8KcgsP9NtEJ7l0rSBbn5USVdzJBWs8vJZpiglbjEPZS4LFM7H3FxK6sw5o_RmEWyqLHkiTpk9TvNVOIEw-JDEBPz5QuYu1pg8hsjrCO4HfzLDwCn6h5mS5B-7FL-QA1pEtpoyq_VaMFDfaJPg4O_aZAUu-pq52gNijTfjBqexW30eFj-O9jTFxDQMoSOzJrG7Ypsz1w.7m4ZBaqb58zoMEpXzR8erlAX8JxRlNmG5GdmPvjPLMI&dib_tag=se&keywords=running+spikes+for+athletics&qid=1717397571&sprefix=running+spi%2Caps%2C433&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1',
+      'https://amzn.to/4e8hPqT',
       '_blank'
     );
   };
@@ -78,7 +78,7 @@ const Home: React.FC = () => {
   const handleSprtArcButtonClick = () => {
     // Open the Amazon link in a new tab
     window.open(
-      'https://www.amazon.in/Cable-World-Archery-Colourful-Suction/dp/B09QKZX7MV/ref=sr_1_17?content-id=amzn1.sym.5e455782-2b09-4126-83e3-a9dbac6d07bb%3Aamzn1.sym.5e455782-2b09-4126-83e3-a9dbac6d07bb&dib=eyJ2IjoiMSJ9.PoAw28xWXNxkvO1FUfDTBPo-df5OCApin6qKHYslCrxF3xnw7cIP_-P_qHEkMUhFVlSciVdxfee64oyi8Bh5KDd7kTwpi0e1LVPrcJlTUILnknKeMFShGw_RkGDB0r8CeI_9Nyo5CJKr-jqXWKPQE6W2z-fJq-EEuvPzXV-E8t1-EqOCVTMqw7Re09a4ZBfSTLAs64wQV1_B2CoxSDJGuxZARGi3ES8NvMvnqQXt0Io-xBmHeY0qtX68i35vOoZi2gEnzHXZvqc3H9vEb8WkxwzgHgxdCzXYS_mGJPXFrSU.3UcjERnLTBmejzqRcbLFkqaleGrIVDNhyxtlDkwlZHI&dib_tag=se&keywords=sports+items&pd_rd_r=b0032109-14e9-4815-b2c4-14edd8bc3f5e&pd_rd_w=ZPf8P&pd_rd_wg=pdp5e&pf_rd_p=5e455782-2b09-4126-83e3-a9dbac6d07bb&pf_rd_r=3BC81N4SSWYEZG3V9H2Q&qid=1717400407&sr=8-17',
+      'https://amzn.to/3X6ASvC',
       '_blank'
     );
   };
@@ -96,7 +96,7 @@ const Home: React.FC = () => {
   const handleSprtWCrKitButtonClick = () => {
     // Open the Amazon link in a new tab
     window.open(
-      'https://www.amazon.in/SG-Cricket-Ezeepak-Stumps-Between/dp/B07HT48WG4/ref=sr_1_7?crid=2BWET5EN3VBVE&dib=eyJ2IjoiMSJ9.zqDq2pZyeK6S__3sLmz6fUYYjC7e2Ds87Ccl7ODgxyWNDShfQLPy6thkPVENOV9jZE6n_SuqCa4avrTYMD7IHzPWcREsx2giqXd8amSmI2I50bi6YbIq_4WP13g1DXq-4zBCwlC5X5w_px_kk0cWqmyeYbRlbrkaFF9lkTOGt-2kPKp2q4bp4zP3vvitGRZKC6TjtzI0zZ57yRuOLyHIWDwuBaZpyl0Vd93Kp3rrKtrZ4eIIupqlM1k28GXvVZT2Yktmv735n69JnxMa_VaPL9Owqns8IYKTevR7eITpF9g.1vLVgLDT9Q007GhuRqKvtx7SuFUBJB8uYZmFuwDeFEo&dib_tag=se&keywords=cricket+kit+for+women+full+kit&qid=1717402688&sprefix=cricket+kit+for+woom%2Caps%2C743&sr=8-7',
+      'https://amzn.to/3KuvKKm',
       '_blank'
     );
   };
@@ -105,7 +105,7 @@ const Home: React.FC = () => {
   const handleSprtMCrKitButtonClick = () => {
     // Open the Amazon link in a new tab
     window.open(
-      'https://www.amazon.in/SQ-SPORTS-Complete-Cricket-Premium/dp/B0D1KGVNX2/ref=sr_1_1?crid=2UJ0TDV9V9TB9&dib=eyJ2IjoiMSJ9.7D_np7_9F96XrWHdK4G80EnYp0VJQMSuyn_awS5An_svreQzFejNUxPq24k6ya6hPW5-ebHbSmJqlJkvw_L-RAFwd7tNDc0k9IQhfDWIw8XYpvqQHiB8CjWlkVgnQ0lZornArTpY6mTMj-IJs1RMw5ygzkQ2F_9xQ5_pSQG9QUn1YAJXj3tkmauN_wWzzTAvdvpmRsH4kcJ8VNPv6_3MxHdqlytDa9qiXitd21b88gxnS2MZlBDhVT9v1Tha0kJn3GWIilEEkYLMMt7Grh3VUkkqSgiFEiIlMYTMyqwjclg.AWS_ehTAtnyg9glbXCuuuHC3fp3_PoReHcQgUmbvuOo&dib_tag=se&keywords=cricket%2Bkit%2Bfor%2Bboys%2Bof%2B12-14&qid=1717403922&sprefix=cricket%2Bkit%2B%2Caps%2C987&sr=8-1&th=1',
+      'https://amzn.to/3VaNVcL',
       '_blank'
     );
   };
@@ -113,7 +113,7 @@ const Home: React.FC = () => {
   // Function to handle image click
   const handleFstImageClick = () => {
     // Navigate to the /about-us route
-    navigate('/mobile-phones');
+    navigate('/mobile-phones#Redmi125G');
   };
 
   // Function to handle image click

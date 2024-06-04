@@ -1,15 +1,28 @@
+.column {
+  padding-bottom: 20px;
+}
 .pointer {
-  cursor: pointer;
+  cursor: zoom-in;
 }
 .imgBox {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   justify-content: center;
   text-align: center;
+  box-shadow: 0 4px 8px rgba(104, 236, 236, 0.5); /* Shadow properties */
+}
+.firstDiv {
+  background-color: var(--mobile-sec-one);
+}
+.secDiv {
+  background-color: var(--mobile-sec-two);
+}
+.thrdDiv {
+  background-color: var(--mobile-sec-three);
 }
 .firstColText {
-  margin-top: 4%;
   text-align: left;
   justify-content: center;
   display: block;
