@@ -15,6 +15,8 @@
   --mobile-sec-one: #9decf7;
   --mobile-sec-two: #97c7e8;
   --mobile-sec-three: #fb6585;
+  --wifi-sec-one: #e8ecf3;
+  --wifi-sec-two: #e7e5e5;
 
   /* font Styles */
   -font-h1: 1.8rem;
@@ -43,7 +45,6 @@
   --light: #dedcdc;
   --dark: #071437;
   --dark-light: #585757;
-  --gray: #fcfcfc;
   --container-border: #cccccc;
   --container-border-fade: #eeeeee;
   --list-item-border-radius: 2px;

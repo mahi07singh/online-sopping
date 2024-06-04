@@ -40,47 +40,32 @@ const Home: React.FC = () => {
   // Function to handle button click
   const handleLedButtonClick = () => {
     // Open the Amazon link in a new tab
-    window.open(
-      'https://amzn.to/3X84HMp',
-      '_blank'
-    );
+    window.open('https://amzn.to/3X84HMp', '_blank');
   };
 
   // Function to handle button click
   const handleFrzButtonClick = () => {
     // Open the Amazon link in a new tab
-    window.open(
-      'https://amzn.to/3yL5WXX',
-      '_blank'
-    );
+    window.open('https://amzn.to/3yL5WXX', '_blank');
   };
 
   // second sports section
   // Function to handle button click
   const handleSprtFirButtonClick = () => {
     // Open the Amazon link in a new tab
-    window.open(
-      'https://amzn.to/3Ku4J9W',
-      '_blank'
-    );
+    window.open('https://amzn.to/3Ku4J9W', '_blank');
   };
 
   // Function to handle button click
   const handleSprtSecButtonClick = () => {
     // Open the Amazon link in a new tab
-    window.open(
-      'https://amzn.to/4e8hPqT',
-      '_blank'
-    );
+    window.open('https://amzn.to/4e8hPqT', '_blank');
   };
 
   // Function to handle button click
   const handleSprtArcButtonClick = () => {
     // Open the Amazon link in a new tab
-    window.open(
-      'https://amzn.to/3X6ASvC',
-      '_blank'
-    );
+    window.open('https://amzn.to/3X6ASvC', '_blank');
   };
 
   // Function to handle button click
@@ -95,37 +80,31 @@ const Home: React.FC = () => {
   // Function to handle button click
   const handleSprtWCrKitButtonClick = () => {
     // Open the Amazon link in a new tab
-    window.open(
-      'https://amzn.to/3KuvKKm',
-      '_blank'
-    );
+    window.open('https://amzn.to/3KuvKKm', '_blank');
   };
 
   // Function to handle button click
   const handleSprtMCrKitButtonClick = () => {
     // Open the Amazon link in a new tab
-    window.open(
-      'https://amzn.to/3VaNVcL',
-      '_blank'
-    );
+    window.open('https://amzn.to/3VaNVcL', '_blank');
   };
 
   // Function to handle image click
   const handleFstImageClick = () => {
     // Navigate to the /about-us route
-    navigate('/mobile-phones#Redmi125G');
+    navigate('/mobile-phones#redmi');
   };
 
   // Function to handle image click
   const handleSecImageClick = () => {
     // Navigate to the /about-us route
-    navigate('/wifi-adapter');
+    navigate('/wifi-adapter#wifi-adaper');
   };
 
   // Function to handle image click
   const handleThdImageClick = () => {
     // Navigate to the /about-us route
-    navigate('/camera');
+    navigate('/camera#camera');
   };
 
   // Function to handle image click
@@ -189,6 +168,12 @@ const Home: React.FC = () => {
     navigate('/contact');
   };
 
+  // Function to navigate to contact
+  const handleGProductClick = () => {
+    // Navigate to the /about-us route
+    navigate('/girls-products');
+  };
+  
   return (
     <>
       <Helmet>
@@ -242,7 +227,7 @@ const Home: React.FC = () => {
                 <Button
                   className={Styles.carouselButton}
                   variant="info"
-                  href="/products"
+                  onClick={handleGProductClick}
                 >
                   Products
                 </Button>
@@ -253,7 +238,7 @@ const Home: React.FC = () => {
               <img
                 className={`${Styles.carouselImage} w-100`}
                 src={`${process.env.PUBLIC_URL}/slide2.png`}
-                alt="Not Supported"
+                alt="Fashionable clothing for Boys"
               />
               <Carousel.Caption className={Styles.carouselCaption}>
                 <p className={Styles.carouselTitle}>
@@ -282,7 +267,7 @@ const Home: React.FC = () => {
               <img
                 className={`${Styles.carouselImage} w-100`}
                 src={`${process.env.PUBLIC_URL}/slide3.png`}
-                alt="Not Supported"
+                alt="Electronic Gadages"
               />
               <Carousel.Caption className={Styles.carouselCaption}>
                 <p className={Styles.carouselTitle}>
@@ -615,8 +600,8 @@ const Home: React.FC = () => {
                       <Card.Body>
                         <Card.Title>CW SG Nylon Cricket Kit</Card.Title>
                         <Card.Text>
-                          Combo with Spofly Brand Ideal for Age Between
-                          10 to 11 Year
+                          Combo with Spofly Brand Ideal for Age Between 10 to 11
+                          Year
                         </Card.Text>
                         <Button
                           variant="outline-primary"

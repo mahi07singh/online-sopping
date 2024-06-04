@@ -22,6 +22,7 @@ import SportsArcery from './pages/sports-archery';
 import SportsBadminton from './pages/sports-badminton';
 import SportsWCricketKit from './pages/sports-wcriket-kit';
 import SportsMCricketKit from './pages/sports-mcriket-kit';
+import GirlProducts from './pages/products';
 
 const App = () => {
   return (
@@ -47,6 +48,7 @@ const App = () => {
         <Route path="/sports-badminton" element={<SportsBadminton />} />
         <Route path="/sports-wcricket-kit" element={<SportsWCricketKit />} />
         <Route path="/sports-mcricket-kit" element={<SportsMCricketKit />} />
+        <Route path="/girls-products" element={<GirlProducts />} />
       </Routes>
       <Footer />
     </>

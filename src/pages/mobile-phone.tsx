@@ -105,7 +105,7 @@ const MobilePhones: React.FC = () => {
         </Container>
       </section>
       {/* This is the second Section of Home Page */}
-      <section id="Redmi125G">
+      <section id="redmi">
         <Container>
           <Row>
             <Col xs={12} sm={12} md={6} className={Styles.column}>

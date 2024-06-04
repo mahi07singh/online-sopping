@@ -11,16 +11,16 @@
   padding-bottom: 5px;
   justify-content: center;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Shadow properties */
+  box-shadow: 0 4px 8px rgba(51, 111, 241, 0.973); /* Shadow properties */
 }
 .firstDiv {
-  background-color: var(--mobile-sec-one);
+  background-color: var(--wifi-sec-one);
 }
 .secDiv {
-  background-color: var(--mobile-sec-two);
+  background-color: var(--wifi-sec-two);
 }
 .thrdDiv {
-  background-color: var(--mobile-sec-three);
+  background-color: var(--wifi-sec-two);
 }
 .firstColText {
   text-align: left;
