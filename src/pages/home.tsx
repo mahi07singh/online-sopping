@@ -71,10 +71,7 @@ const Home: React.FC = () => {
   // Function to handle button click
   const handleSprtBtmnButtonClick = () => {
     // Open the Amazon link in a new tab
-    window.open(
-      'https://www.amazon.in/Hipkoo-Full-Badminton-Racket-Shuttlecocks/dp/B07CM7ZYY6/ref=sr_1_19?content-id=amzn1.sym.5e455782-2b09-4126-83e3-a9dbac6d07bb%3Aamzn1.sym.5e455782-2b09-4126-83e3-a9dbac6d07bb&dib=eyJ2IjoiMSJ9.PoAw28xWXNxkvO1FUfDTBPo-df5OCApin6qKHYslCrxF3xnw7cIP_-P_qHEkMUhFVlSciVdxfee64oyi8Bh5KDd7kTwpi0e1LVPrcJlTUILnknKeMFShGw_RkGDB0r8CeI_9Nyo5CJKr-jqXWKPQE6W2z-fJq-EEuvPzXV-E8t1-EqOCVTMqw7Re09a4ZBfSTLAs64wQV1_B2CoxSDJGuxZARGi3ES8NvMvnqQXt0Io-xBmHeY0qtX68i35vOoZi2gEnzHXZvqc3H9vEb8WkxwzgHgxdCzXYS_mGJPXFrSU.3UcjERnLTBmejzqRcbLFkqaleGrIVDNhyxtlDkwlZHI&dib_tag=se&keywords=sports+items&pd_rd_r=b0032109-14e9-4815-b2c4-14edd8bc3f5e&pd_rd_w=ZPf8P&pd_rd_wg=pdp5e&pf_rd_p=5e455782-2b09-4126-83e3-a9dbac6d07bb&pf_rd_r=3BC81N4SSWYEZG3V9H2Q&qid=1717400407&sr=8-19',
-      '_blank'
-    );
+    window.open('https://amzn.to/458J0h6', '_blank');
   };
 
   // Function to handle button click
@@ -173,7 +170,7 @@ const Home: React.FC = () => {
     // Navigate to the /about-us route
     navigate('/girls-products');
   };
-  
+
   return (
     <>
       <Helmet>
@@ -310,7 +307,7 @@ const Home: React.FC = () => {
                   src={`${process.env.PUBLIC_URL}/images/home/first.png`}
                   onClick={handleFstImageClick}
                   className={`${Styles.cardImage} ${Styles.pointer}`}
-                  alt="This Image is not Supported."
+                  alt="Please Check Your Internet connection.."
                 />
                 <hr className={Styles.hr} />
                 <Card.Body>
@@ -335,7 +332,7 @@ const Home: React.FC = () => {
                   src={`${process.env.PUBLIC_URL}/images/home/second.png`}
                   className={`${Styles.cardImage} ${Styles.pointer}`}
                   onClick={handleSecImageClick}
-                  alt="This Image is not Supported."
+                  alt="Please Check Your Internet connection.."
                 />
                 <hr className={Styles.hr} />
                 <Card.Body>
@@ -359,7 +356,7 @@ const Home: React.FC = () => {
                   src={`${process.env.PUBLIC_URL}/images/home/third.png`}
                   onClick={handleThdImageClick}
                   className={`${Styles.cardImage} ${Styles.pointer}`}
-                  alt="This Image is not Supported."
+                  alt="Please Check Your Internet connection.."
                 />
                 <hr className={Styles.hr} />
                 <Card.Body>
@@ -384,7 +381,7 @@ const Home: React.FC = () => {
                   src={`${process.env.PUBLIC_URL}/images/home/fourth.png`}
                   className={`${Styles.cardImage} ${Styles.pointer}`}
                   onClick={handleFrthImageClick}
-                  alt="This Image is not Supported."
+                  alt="Please Check Your Internet connection.."
                 />
                 <hr className={Styles.hr} />
                 <Card.Body>
@@ -413,7 +410,7 @@ const Home: React.FC = () => {
                         src={`${process.env.PUBLIC_URL}/images/home/led.png`}
                         onClick={handleLedImageClick}
                         className={`${Styles.cardImage} ${Styles.pointer}`}
-                        alt="This Image is not Supported."
+                        alt="Please Check Your Internet connection.."
                       />
                       <hr className={Styles.hr} />
                       <Card.Body>
@@ -439,7 +436,7 @@ const Home: React.FC = () => {
                         src={`${process.env.PUBLIC_URL}/images/home/freeze.png`}
                         className={`${Styles.cardImage} ${Styles.pointer}`}
                         onClick={handleFrzImageClick}
-                        alt="This Image is not Supported."
+                        alt="Please Check Your Internet connection.."
                       />
                       <hr className={Styles.hr} />
                       <Card.Body>
@@ -491,7 +488,7 @@ const Home: React.FC = () => {
                   src={`${process.env.PUBLIC_URL}/images/home/virat.png`}
                   onClick={handleSptFImageClick}
                   className={`${Styles.cardSecImage} ${Styles.pointer}`}
-                  alt="This Image is not Supported."
+                  alt="Please Check Your Internet connection.."
                 />
                 <hr className={Styles.hr} />
                 <Card.Body>
@@ -516,7 +513,7 @@ const Home: React.FC = () => {
                   src={`${process.env.PUBLIC_URL}/images/home/spike.png`}
                   className={`${Styles.cardSecImage} ${Styles.pointer}`}
                   onClick={handleSptSecImageClick}
-                  alt="This Image is not Supported."
+                  alt="Please Check Your Internet connection.."
                 />
                 <hr className={Styles.hr} />
                 <Card.Body>
@@ -540,7 +537,7 @@ const Home: React.FC = () => {
                   src={`${process.env.PUBLIC_URL}/images/home/archery.png`}
                   onClick={handleSptArcImageClick}
                   className={`${Styles.cardSecImage} ${Styles.pointer}`}
-                  alt="This Image is not Supported."
+                  alt="Please Check Your Internet connection.."
                 />
                 <hr className={Styles.hr} />
                 <Card.Body>
@@ -565,7 +562,7 @@ const Home: React.FC = () => {
                   src={`${process.env.PUBLIC_URL}/images/home/badminton.png`}
                   className={`${Styles.cardSecImage} ${Styles.pointer}`}
                   onClick={handleSptBtmnImageClick}
-                  alt="This Image is not Supported."
+                  alt="Please Check Your Internet connection.."
                 />
                 <hr className={Styles.hr} />
                 <Card.Body>
@@ -594,7 +591,7 @@ const Home: React.FC = () => {
                         src={`${process.env.PUBLIC_URL}/images/home/wcricket-kit.png`}
                         onClick={handleSptWCrKitImageClick}
                         className={`${Styles.cardSecImage} ${Styles.pointer}`}
-                        alt="This Image is not Supported."
+                        alt="Please Check Your Internet connection.."
                       />
                       <hr className={Styles.hr} />
                       <Card.Body>
@@ -619,7 +616,7 @@ const Home: React.FC = () => {
                         src={`${process.env.PUBLIC_URL}/images/home/mcricket-kit.png`}
                         className={`${Styles.cardSecImage} ${Styles.pointer}`}
                         onClick={handleSptMCrKitImageClick}
-                        alt="This Image is not Supported."
+                        alt="Please Check Your Internet connection.."
                       />
                       <hr className={Styles.hr} />
                       <Card.Body>

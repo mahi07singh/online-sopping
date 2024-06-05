@@ -8,10 +8,7 @@ const WifiAdapter: React.FC = () => {
   // Function to handle button click
   const handleFrstSecBuy = () => {
     // Open the Amazon link in a new tab
-    window.open(
-      'https://www.amazon.in/dp/B004Y6MIXS/ref=sspa_dk_detail_5?psc=1&pd_rd_i=B004Y6MIXS&pd_rd_w=SRh7a&content-id=amzn1.sym.dcd65529-2e56-4c74-bf19-15db07b4a1fc&pf_rd_p=dcd65529-2e56-4c74-bf19-15db07b4a1fc&pf_rd_r=6174FVT3K87VRCSEPMZ2&pd_rd_wg=z6Wen&pd_rd_r=4de15816-0b9d-4030-b6b5-6c356870a358&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM',
-      '_blank'
-    );
+    window.open('https://amzn.to/3X4OK9O', '_blank');
   };
 
   // Function to handle button click
@@ -23,10 +20,7 @@ const WifiAdapter: React.FC = () => {
   // Function to handle button click
   const handleThrdSecBuy = () => {
     // Open the Amazon link in a new tab
-    window.open(
-      'https://www.amazon.in/dp/B073JHHNJ9/ref=sspa_dk_detail_5?psc=1&pd_rd_i=B073JHHNJ9&pd_rd_w=TX7ex&content-id=amzn1.sym.2575ab02-73ff-40ca-8d3a-4fbe87c5a28d&pf_rd_p=2575ab02-73ff-40ca-8d3a-4fbe87c5a28d&pf_rd_r=KS0N38X84KNW3ZFCHET1&pd_rd_wg=SMtCo&pd_rd_r=2bc7d567-2674-4a96-b00e-8154ee2398a5&s=computers&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw',
-      '_blank'
-    );
+    window.open('https://amzn.to/3X9w0WF', '_blank');
   };
   return (
     <>
@@ -61,22 +55,22 @@ const WifiAdapter: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.firstDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/wifi/frstsecone.png`}
-                  alt="Not Supported"
+                  alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/wifi/frstsecsec.png`}
-                  alt="Not Supported"
+                  alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/wifi/frstsecthrd.png`}
-                  alt="Not Supported"
+                  alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/wifi/frstsecfrth.png`}
-                  alt="Not Supported"
+                  alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
@@ -117,22 +111,22 @@ const WifiAdapter: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.secDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/wifi/secsecone.png`}
-                  alt="Not Supported"
+                  alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/wifi/secsecsec.png`}
-                  alt="Not Supported"
+                  alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/wifi/secsecthrd.png`}
-                  alt="Not Supported"
+                  alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/wifi/secsecfrth.png`}
-                  alt="Not Supported"
+                  alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
@@ -175,22 +169,22 @@ const WifiAdapter: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.thrdDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/wifi/thrdsecone.png`}
-                  alt="Not Supported"
+                  alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/wifi/thrdsecthrd.png`}
-                  alt="Not Supported"
+                  alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/wifi/thrdsecthrd.png`}
-                  alt="Not Supported"
+                  alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/wifi/thrdsecfrth.png`}
-                  alt="Not Supported"
+                  alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
