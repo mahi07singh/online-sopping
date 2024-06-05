@@ -25,10 +25,31 @@ const Camera: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Camera Photograpy - Mohit's Shopping App</title>
+        <title>Camera Photography - Mohit's Shopping App</title>
         <meta
           name="description"
-          content="Learn more about Mohit's Shopping App and our mission to provide the best online shopping experience."
+          content="Explore the best cameras for photography at Mohit's Shopping App. Discover a wide range of cameras from top brands to capture your perfect moments."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          property="og:title"
+          content="Camera Photography - Mohit's Shopping App"
+        />
+        <meta
+          property="og:description"
+          content="Find the perfect camera for photography at Mohit's Shopping App. Shop top brands and models to capture stunning photos and videos."
+        />
+        <meta
+          property="og:image"
+          content={`${process.env.PUBLIC_URL}/images/camera.jpg`} // Update the image path accordingly
+        />
+        <meta
+          property="og:url"
+          content="https://www.mohitshoppingapp.com/cameras"
+        />
+        <meta
+          name="keywords"
+          content="cameras, photography, DSLR, mirrorless, digital cameras, camera accessories, Mohit's Shopping App"
         />
       </Helmet>
       {/* Main Heading of the Home Page */}

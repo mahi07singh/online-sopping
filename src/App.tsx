@@ -16,13 +16,19 @@ import WifiAdapter from './pages/wifi-adapter';
 import Subwoofer from './pages/subwoofer';
 import LedTv from './pages/led';
 import Freezes from './pages/freezes';
-import SportsTShirts from './pages/sports-t-shirt';
-import SportsShoes from './pages/sports-shoes';
-import SportsArcery from './pages/sports-archery';
-import SportsBadminton from './pages/sports-badminton';
-import SportsWCricketKit from './pages/sports-wcriket-kit';
-import SportsMCricketKit from './pages/sports-mcriket-kit';
-import GirlProducts from './pages/products';
+import SportsTShirts from './pages/sports/sports-t-shirt';
+import SportsShoes from './pages/sports/sports-shoes';
+import SportsArcery from './pages/sports/sports-archery';
+import SportsBadminton from './pages/sports/sports-badminton';
+import SportsWCricketKit from './pages/sports/sports-wcriket-kit';
+import SportsMCricketKit from './pages/sports/sports-mcriket-kit';
+import GirlProducts from './pages/girls/products';
+import GirlKurtiProducts from './pages/girls/girls-products';
+import GirlSandalProducts from './pages/girls/girls-sandals';
+import GirlSkinCareProducts from './pages/girls/girls-skin-care';
+import GirlPandentProducts from './pages/girls/girls-pandent';
+import GirlSareeProducts from './pages/girls/girls-sarees';
+import GirlBraProducts from './pages/girls/girls-bras';
 
 const App = () => {
   return (
@@ -49,6 +55,12 @@ const App = () => {
         <Route path="/sports-wcricket-kit" element={<SportsWCricketKit />} />
         <Route path="/sports-mcricket-kit" element={<SportsMCricketKit />} />
         <Route path="/girls-products" element={<GirlProducts />} />
+        <Route path="/girls-kurtis" element={<GirlKurtiProducts />} />
+        <Route path="/girls-sandals" element={<GirlSandalProducts />} />
+        <Route path="/girls-skin-care" element={<GirlSkinCareProducts />} />
+        <Route path="/girls-pandent" element={<GirlPandentProducts />} />
+        <Route path="/girls-sarees" element={<GirlSareeProducts />} />
+        <Route path="/girls-bras" element={<GirlBraProducts />} />
       </Routes>
       <Footer />
     </>

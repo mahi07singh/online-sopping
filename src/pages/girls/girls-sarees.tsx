@@ -1,50 +1,57 @@
 import React from 'react';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Button, Col, Container, Row } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
+import Styles from '../../styles/pages/camera.module.css';
 import { FaShoppingCart } from 'react-icons/fa';
-import Styles from '../styles/pages/led.module.css';
 
-const LedTv: React.FC = () => {
+const GirlSareeProducts: React.FC = () => {
   // Function to handle button click
-  const handleFirstButtonClick = () => {
+  const handleFrstBuy = () => {
     // Open the Amazon link in a new tab
-    window.open('https://amzn.to/3X84HMp', '_blank');
+    window.open('https://amzn.to/3yON0HL', '_blank');
   };
 
   // Function to handle button click
-  const handleSecButtonClick = () => {
+  const handleSecBuy = () => {
     // Open the Amazon link in a new tab
-    window.open('https://amzn.to/3x3SLAC', '_blank');
+    window.open('https://amzn.to/3wReKe9', '_blank');
   };
 
   // Function to handle button click
-  const handleThrdButtonClick = () => {
+  const handleThrdBuy = () => {
     // Open the Amazon link in a new tab
-    window.open('https://amzn.to/3KwGDeO', '_blank');
+    window.open('https://amzn.to/3XawSdE', '_blank');
   };
-
   return (
     <>
       <Helmet>
-      <title>LED TVs - Mohit's Shopping App</title>
-      <meta
-        name="description"
-        content="Discover the best deals on high-definition LED TVs at Mohit's Shopping App. Explore our wide range of LED TVs with stunning picture quality and advanced features."
-      />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta property="og:title" content="LED TVs - Mohit's Shopping App" />
-      <meta
-        property="og:description"
-        content="Shop the latest LED TVs at Mohit's Shopping App. Enjoy amazing deals on top brands with cutting-edge technology and vibrant visuals."
-      />
-      <meta
-        property="og:image"
-        content={`${process.env.PUBLIC_URL}/images/led-tv.jpg`} // Update the image path accordingly
-      />
-      {/* <meta property="og:url" content="https://www.mohitshoppingapp.com/led-tvs" /> */}
-      <meta property="og:url" content="#" />
-      <meta name="keywords" content="LED TVs, high-definition, 4K, smart TV, home entertainment, Mohit's Shopping App" />
-    </Helmet>
+        <title>Girls' Saree - Mohit's Shopping App</title>
+        <meta
+          name="description"
+          content="Explore a beautiful collection of sarees for girls at Mohit's Shopping App. Find trendy and elegant sarees for girls of all ages. Shop now for the best deals on girls' sarees."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          property="og:title"
+          content="Girls' Saree - Mohit's Shopping App"
+        />
+        <meta
+          property="og:description"
+          content="Discover a beautiful collection of sarees for girls at Mohit's Shopping App. Find trendy and elegant sarees for girls of all ages. Shop now for the best deals on girls' sarees."
+        />
+        <meta
+          property="og:image"
+          content={`${process.env.PUBLIC_URL}/images/girl-saree.jpg`} // Update the image path accordingly
+        />
+        <meta
+          property="og:url"
+          content="https://www.mohitshoppingapp.com/girl-saree"
+        />
+        <meta
+          name="keywords"
+          content="girls saree, kids saree, children saree, girls ethnic wear, girls fashion, Mohit's Shopping App"
+        />
+      </Helmet>
       {/* Main Heading of the Home Page */}
       <h1 className="visually-hidden">Home - Online Shopping App & Website</h1>
       {/* This is the First Section of Home Page */}
@@ -54,51 +61,40 @@ const LedTv: React.FC = () => {
             <Col xs={12} sm={12} md={6} className={Styles.column}>
               <div className={`${Styles.imgBox} ${Styles.firstDiv}`}>
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/led/frstsecone.png`}
+                  src={`${process.env.PUBLIC_URL}/images/camera/frstsecone.png`}
                   alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/led/frstsecsec.png`}
+                  src={`${process.env.PUBLIC_URL}/images/camera/frstsecsec.png`}
                   alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/led/frstsecthrd.png`}
+                  src={`${process.env.PUBLIC_URL}/images/camera/frstsecthrd.png`}
                   alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/led/frstsecfrth.png`}
+                  src={`${process.env.PUBLIC_URL}/images/camera/frstsecfrth.png`}
                   alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
             </Col>
             <Col xs={12} sm={12} md={6} className={Styles.firstColText}>
-              <h2>Ultra HD Smart LED</h2>
+              <h2>Fujifilm X-T30 II 26.1MP</h2>
               <p className="">
-                TCL 139 cm (55 inches) Metallic Bezel-Less Series 4K Ultra HD
-                Smart LED Google TV 55V6B (Black)
+                Retro Style mirrorless Compact Travel Camera|4k vlogging|High
+                Speed Recording FHD 240fps|Advance AF for
+                Street/Lifestyle/Amateurs (Body only) -Silver
                 <hr />
                 <span className="bold d-block mt-2">About this item</span>
               </p>
               <ul>
-                <li>
-                  Warranty Information: 2 Year warranty provided by the
-                  manufacturer from date of purchase{' '}
-                </li>
-                <li>
-                  Display: UHD 4K LED Panel | Dynamic Color Enhancement | HDR 10
-                  | T-Screen | AiPQ Processor | 178 Degree Wide Viewing Angle |
-                  Micro Dimming | Metallic Bezel-Less Design
-                </li>
-                <li>Sound: 24 Watts output | Dolby Audio MS12Y </li>
+                <li>26.1MP APS-C X-Trans BSI CMOS 4 Sensor </li>
               </ul>
-              <Button
-                variant="outline-primary"
-                onClick={handleFirstButtonClick}
-              >
+              <Button variant="outline-primary" onClick={handleFrstBuy}>
                 Buy Now <FaShoppingCart style={{ marginLeft: '3px' }} />
               </Button>
             </Col>
@@ -106,56 +102,56 @@ const LedTv: React.FC = () => {
         </Container>
       </section>
       {/* This is the second Section of Home Page */}
-      <section>
+      <section id="camera">
         <Container>
           <Row>
             <Col xs={12} sm={12} md={6} className={Styles.column}>
               <div className={`${Styles.imgBox} ${Styles.secDiv}`}>
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/led/secsecone.png`}
+                  src={`${process.env.PUBLIC_URL}/images/camera/secsecone.png`}
                   alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/led/secsecsec.png`}
+                  src={`${process.env.PUBLIC_URL}/images/camera/secsecsec.png`}
                   alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/led/secsecthrd.png`}
+                  src={`${process.env.PUBLIC_URL}/images/camera/secsecthrd.png`}
                   alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/led/secsecfrth.png`}
+                  src={`${process.env.PUBLIC_URL}/images/camera/secsecfrth.png`}
                   alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
             </Col>
             <Col xs={12} sm={12} md={6} className={Styles.firstColText}>
-              <h2> Smart Google TV L50M8-A2IN</h2>
+              <h2>Vlogging Camera For Youtube</h2>
               <p className="">
-                Xiaomi 125 cm (50 inches) X 4K Dolby Vision Series Smart Google
-                TV L50M8-A2IN (Black)
+                Sorandy 4K Vlogging Camera For Youtube, 3 Inch Ips 64Mp Digital
+                Camera For Photography
                 <hr />
                 <span className="bold d-block mt-2">About this item</span>
               </p>
               <ul>
                 <li>
-                  Resolution : 4K Ultra HD (3840 x 2160) Resolution | Refresh
-                  Rate : 60 Hertz | Viewing angle : 178 degrees{' '}
+                  NIGHT VISION PHOTO: The digital camera is equipped with HD
+                  night vision photo function, when the lens senses the change
+                  of light, the IR CUT switches, so that the photo can be taken
+                  in a dim environment can also produce clear and bright
+                  results.{' '}
                 </li>
                 <li>
-                  Connectivity: Dual Band Wi-Fi | 3 HDMI | 2 USB ports| Optical
-                  port| AV port| Ethernet port | 3.5 mm jack | Bluetooth 5.0{' '}
-                </li>
-                <li>
-                  Display: 4K Dolby Vision | HDR 10 | HLG | Reality Flow MEMC |
-                  Vivid Picture Engine | Wide Colour Gamut- DCI-P3 94% (typ){' '}
+                  HIGH RESOLUTION SHOOTING: The digital camera has a maximum of
+                  4K 64 megapixels, which is able to catch every detail and
+                  perfectly record the wonderful life.{' '}
                 </li>
               </ul>
-              <Button variant="outline-primary" onClick={handleSecButtonClick}>
+              <Button variant="outline-primary" onClick={handleSecBuy}>
                 Buy Now <FaShoppingCart style={{ marginLeft: '3px' }} />
               </Button>
             </Col>
@@ -169,52 +165,51 @@ const LedTv: React.FC = () => {
             <Col xs={12} sm={12} md={6} className={Styles.column}>
               <div className={`${Styles.imgBox} ${Styles.thrdDiv}`}>
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/led/thrdsecone.png`}
+                  src={`${process.env.PUBLIC_URL}/images/camera/thrdsecone.png`}
                   alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/led/thrdsecthrd.png`}
+                  src={`${process.env.PUBLIC_URL}/images/camera/thrdsecthrd.png`}
                   alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/led/thrdsecthrd.png`}
+                  src={`${process.env.PUBLIC_URL}/images/camera/thrdsecthrd.png`}
                   alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/led/thrdsecfrth.png`}
+                  src={`${process.env.PUBLIC_URL}/images/camera/thrdsecfrth.png`}
                   alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
             </Col>
             <Col xs={12} sm={12} md={6} className={Styles.firstColText}>
-              <h2>Series Smart Google TV </h2>
+              <h2>Fujifilm X-T5 40MP</h2>
               <p className="">
-                Xiaomi 125 cm (50 inches) X Pro 4K Dolby Vision IQ Series Smart
-                Google TV L50M8-5XIN (Black)
+                APS-C X-Trans Sensor|Pixel Shift|IBIS System|Ultra high
+                Resolution mirrorless Camera|6k 30p|1/180000 Shutter Speed|Quick
+                Lever for Photo/Video with XF 18-55mm f/2.8 Lens -Black
                 <hr />
                 <span className="bold d-block mt-2">About this item</span>
               </p>
               <ul>
                 <li>
-                  Resolution : 4K Ultra HD (3840 x 2160) | Refresh Rate : 60
-                  Hertz | Viewing angle : 178 degrees{' '}
+                  40MP APS-C X-Trans CMOS 5 HR BSI Sensor and 4K 120p, 6.2K 30p,
+                  FHD 240p 10-Bit Video{' '}
                 </li>
                 <li>
-                  Connectivity: Dual Band Wi-Fi | 3 HDMI | 2 USB ports| Optical
-                  port| AV port| Ethernet port | 3.5 mm jack | Bluetooth 5.0{' '}
+                  7-Stop In-Body Image Stabilization and 425-Point Intelligent
+                  Hybrid AF System{' '}
                 </li>
-                <li>Sound: 40 Watts Output | Dolby Atmos | DTS-X </li>
                 <li>
-                  Warranty Information: 1 Year Warranty on Product and 2 Years
-                  Warranty on Panel provided by the brand from the date of
-                  purchase{' '}
+                  3.69m-Dot OLED Electronic Viewfinder and 3" 1.84m-Dot Tilting
+                  Touchscreen LCD{' '}
                 </li>
               </ul>
-              <Button variant="outline-primary" onClick={handleThrdButtonClick}>
+              <Button variant="outline-primary" onClick={handleThrdBuy}>
                 Buy Now <FaShoppingCart style={{ marginLeft: '3px' }} />
               </Button>
             </Col>
@@ -225,4 +220,4 @@ const LedTv: React.FC = () => {
   );
 };
 
-export default LedTv;
+export default GirlSareeProducts;
