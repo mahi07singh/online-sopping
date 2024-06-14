@@ -43,10 +43,15 @@ const WifiAdapter: React.FC = () => {
           property="og:image"
           content={`${process.env.PUBLIC_URL}/favicon.png`}
         />
-        <meta property="og:url" content="#" />
+        <meta
+          property="og:url"
+          content="https://mohit-online-shopping.netlify.app/wifi-adapter#wifi-adaper"
+        />
       </Helmet>
       {/* Main Heading of the Home Page */}
-      <h1 className="visually-hidden">Home - Online Shopping App & Website</h1>
+      <h1 className="visually-hidden">
+        WiFi Adapters - Online Shopping App & Website
+      </h1>
       {/* This is the First Section of Home Page */}
       <section>
         <Container>
@@ -173,7 +178,7 @@ const WifiAdapter: React.FC = () => {
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/wifi/thrdsecthrd.png`}
+                  src={`${process.env.PUBLIC_URL}/images/wifi/thrdsecsec.png`}
                   alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />
