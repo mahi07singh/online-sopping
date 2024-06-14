@@ -25,27 +25,27 @@ const GirlKurtiProducts: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Girls' Products - Mohit's Shopping App</title>
+        <title>Girls' Kurtis - Mohit's Shopping App</title>
         <meta
           name="description"
-          content="Explore a wide range of products for girls at Mohit's Shopping App. Find clothing, accessories, toys, and more for girls of all ages. Shop now for the best deals on girls' products."
+          content="Explore a wide range of products for girls at Mohit's Shopping App. Find clothing, accessories, toys, and more for girls of all ages. Shop now for the best deals on Girls' Kurtis."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           property="og:title"
-          content="Girls' Products - Mohit's Shopping App"
+          content="Girls' Kurtis - Mohit's Shopping App"
         />
         <meta
           property="og:description"
-          content="Discover a wide range of products for girls at Mohit's Shopping App. Find clothing, accessories, toys, and more for girls of all ages. Shop now for the best deals on girls' products."
+          content="Discover a wide range of products for girls at Mohit's Shopping App. Find clothing, accessories, toys, and more for girls of all ages. Shop now for the best deals on Girls' Kurtis."
         />
         <meta
           property="og:image"
-          content={`${process.env.PUBLIC_URL}/images/girls-products.jpg`} // Update the image path accordingly
+          content={`${process.env.PUBLIC_URL}/favicon.png`} // Update the image path accordingly
         />
         <meta
           property="og:url"
-          content="https://www.mohitshoppingapp.com/girls-products"
+          content="https://mohit-online-shopping.netlify.app//girls-products"
         />
         <meta
           name="keywords"
@@ -53,7 +53,9 @@ const GirlKurtiProducts: React.FC = () => {
         />
       </Helmet>
       {/* Main Heading of the Home Page */}
-      <h1 className="visually-hidden">Home - Online Shopping App & Website</h1>
+      <h1 className="visually-hidden">
+        Girls' Kurtis - Online Shopping App & Website
+      </h1>
       {/* This is the First Section of Home Page */}
       <section>
         <Container>
@@ -170,7 +172,7 @@ const GirlKurtiProducts: React.FC = () => {
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/thrdsecthrd.png`}
+                  src={`${process.env.PUBLIC_URL}/images/camera/thrdsecsec.png`}
                   alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />

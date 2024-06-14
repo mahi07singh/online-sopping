@@ -48,11 +48,11 @@ const GirlProducts = () => {
   };
 
   // Function to handle image click
-  const handleFrstImageClick = () => {
+  const handleFrthImageClick = () => {
     // Navigate to the /about-us route
-    navigate('/girls-kurtis');
+    navigate('/jewelry-pendants');
   };
-
+  
   // Function to handle image click
   const handleSecImageClick = () => {
     // Navigate to the /about-us route
@@ -66,9 +66,9 @@ const GirlProducts = () => {
   };
 
   // Function to handle image click
-  const handleFrthImageClick = () => {
+  const handleFrstImageClick = () => {
     // Navigate to the /about-us route
-    navigate('/girls-pandent');
+    navigate('/girls-kurtis');
   };
 
   // Function to handle image click
@@ -101,10 +101,15 @@ const GirlProducts = () => {
           property="og:image"
           content={`${process.env.PUBLIC_URL}/favicon.png`}
         />
-        <meta property="og:url" content="#" />
+        <meta
+          property="og:url"
+          content="https://mohit-online-shopping.netlify.app/girls-products"
+        />
       </Helmet>
       {/* Main Heading of the Home Page */}
-      <h1 className="visually-hidden">Home - Online Shopping App & Website</h1>
+      <h1 className="visually-hidden">
+        Products For Girl's - Online Shopping App & Website
+      </h1>
       {/* This is the First Section of Home Page */}
       {/* This is the Second Section of Home Page */}
       <section>
@@ -190,10 +195,7 @@ const GirlProducts = () => {
                 <Card.Body>
                   {/* Women's Kurtas & Kurtis */}
                   <Card.Title>Sports Bra </Card.Title>
-                  <Card.Text>
-                    Clovia Women's Medium Impact 
-                    Sports Bra
-                  </Card.Text>
+                  <Card.Text>Clovia Women's Medium Impact Sports Bra</Card.Text>
                   {/* Button with onClick event to open Amazon link in new tab */}
                   <Button variant="outline-primary" onClick={handleBraSecBuy}>
                     Buy Now <FaShoppingCart style={{ marginLeft: '3px' }} />

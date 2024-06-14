@@ -26,28 +26,34 @@ const Subwoofer: React.FC = () => {
   return (
     <>
       <Helmet>
-      <title>Subwoofers - Mohit's Shopping App</title>
-      <meta
-        name="description"
-        content="Explore high-quality subwoofers at Mohit's Shopping App. Enhance your audio experience with our range of powerful and dynamic subwoofers designed to deliver deep, rich bass."
-      />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta property="og:title" content="Subwoofers - Mohit's Shopping App" />
-      <meta
-        property="og:description"
-        content="Discover the best subwoofers at Mohit's Shopping App. Our subwoofers provide unmatched bass quality and performance for your home audio system."
-      />
-      <meta
-        property="og:image"
-        content={`${process.env.PUBLIC_URL}/images/subwoofer.jpg`} // Update the image path accordingly
-      />
-      {/* <meta property="og:url" content="https://www.mohitshoppingapp.com/subwoofers" /> */}
-
-      <meta property="og:url" content="#" />
-      <meta name="keywords" content="subwoofers, audio, home theater, bass, sound system, Mohit's Shopping App" />
-    </Helmet>
+        <title>Subwoofers - Mohit's Shopping App</title>
+        <meta
+          name="description"
+          content="Explore high-quality subwoofers at Mohit's Shopping App. Enhance your audio experience with our range of powerful and dynamic subwoofers designed to deliver deep, rich bass."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:title" content="Subwoofers - Mohit's Shopping App" />
+        <meta
+          property="og:description"
+          content="Discover the best subwoofers at Mohit's Shopping App. Our subwoofers provide unmatched bass quality and performance for your home audio system."
+        />
+        <meta
+          property="og:image"
+          content={`${process.env.PUBLIC_URL}/favicon.png`} // Update the image path accordingly
+        />
+        <meta
+          property="og:url"
+          content="https://mohit-online-shopping.netlify.app/soundbar-subwoofer"
+        />
+        <meta
+          name="keywords"
+          content="subwoofers, audio, home theater, bass, sound system, Mohit's Shopping App"
+        />
+      </Helmet>
       {/* Main Heading of the Home Page */}
-      <h1 className="visually-hidden">Home - Online Shopping App & Website</h1>
+      <h1 className="visually-hidden">
+        Subwoofers - Online Shopping App & Website
+      </h1>
       {/* This is the First Section of Home Page */}
       <section>
         <Container>
@@ -168,7 +174,7 @@ const Subwoofer: React.FC = () => {
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/subwoofer/thrdsecthrd.png`}
+                  src={`${process.env.PUBLIC_URL}/images/subwoofer/thrdsecsec.png`}
                   alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />

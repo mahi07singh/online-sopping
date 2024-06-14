@@ -1,8 +1,4 @@
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink, useLocation } from 'react-router-dom';
 import Styles from '../../styles/common/header.module.css';
 import { useState, useEffect, useCallback } from 'react';
@@ -83,7 +79,7 @@ const Header = () => {
             >
               Home
             </Nav.Link>
-            <Nav.Link
+            {/* <Nav.Link
               as={NavLink}
               to="/about-us"
               className={classnames(Styles.navLink, {
@@ -92,8 +88,8 @@ const Header = () => {
               onClick={handleClose}
             >
               About Us
-            </Nav.Link>
-            <Nav.Link
+            </Nav.Link> */}
+            {/* <Nav.Link
               as={NavLink}
               to="/contact"
               className={classnames(Styles.navLink, {
@@ -102,9 +98,9 @@ const Header = () => {
               onClick={handleClose}
             >
               Contact
-            </Nav.Link>
+            </Nav.Link> */}
           </Nav>
-          <Form className="d-flex">
+          {/* <Form className="d-flex">
             <Form.Control
               type="search"
               placeholder="Search"
@@ -114,7 +110,7 @@ const Header = () => {
             <Button variant="outline-success" className={Styles.searchButton}>
               Search
             </Button>
-          </Form>
+          </Form> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>

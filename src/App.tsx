@@ -20,7 +20,7 @@ import SportsTShirts from './pages/sports/sports-t-shirt';
 import SportsShoes from './pages/sports/sports-shoes';
 import SportsArcery from './pages/sports/sports-archery';
 import SportsBadminton from './pages/sports/sports-badminton';
-import SportsWCricketKit from './pages/sports/sports-wcriket-kit';
+import HangingRack from './pages/hanging-rack/hanging-rack';
 import SportsMCricketKit from './pages/sports/sports-mcriket-kit';
 import GirlProducts from './pages/girls/products';
 import GirlKurtiProducts from './pages/girls/girls-products';
@@ -52,13 +52,13 @@ const App = () => {
         <Route path="/sports-spike-shoes" element={<SportsShoes />} />
         <Route path="/sports-archery" element={<SportsArcery />} />
         <Route path="/sports-badminton" element={<SportsBadminton />} />
-        <Route path="/sports-wcricket-kit" element={<SportsWCricketKit />} />
+        <Route path="/hanging-rack" element={<HangingRack />} />
         <Route path="/sports-mcricket-kit" element={<SportsMCricketKit />} />
         <Route path="/girls-products" element={<GirlProducts />} />
-        <Route path="/girls-kurtis" element={<GirlKurtiProducts />} />
+        <Route path="/jewelry-pendants" element={<GirlPandentProducts />} />
         <Route path="/girls-sandals" element={<GirlSandalProducts />} />
         <Route path="/girls-skin-care" element={<GirlSkinCareProducts />} />
-        <Route path="/girls-pandent" element={<GirlPandentProducts />} />
+        <Route path="/girls-kurtis" element={<GirlKurtiProducts />} />
         <Route path="/girls-sarees" element={<GirlSareeProducts />} />
         <Route path="/girls-bras" element={<GirlBraProducts />} />
       </Routes>

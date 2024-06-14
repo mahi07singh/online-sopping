@@ -41,11 +41,11 @@ const GirlSandalProducts: React.FC = () => {
         />
         <meta
           property="og:image"
-          content={`${process.env.PUBLIC_URL}/images/girl-sandals.jpg`} // Update the image path accordingly
+          content={`${process.env.PUBLIC_URL}/favicon.png`} // Update the image path accordingly
         />
         <meta
           property="og:url"
-          content="https://www.mohitshoppingapp.com/girl-sandals"
+          content="https://mohit-online-shopping.netlify.app/girls-sandals"
         />
         <meta
           name="keywords"
@@ -53,7 +53,7 @@ const GirlSandalProducts: React.FC = () => {
         />
       </Helmet>
       {/* Main Heading of the Home Page */}
-      <h1 className="visually-hidden">Home - Online Shopping App & Website</h1>
+      <h1 className="visually-hidden">Girl's Sandals - Online Shopping App & Website</h1>
       {/* This is the First Section of Home Page */}
       <section>
         <Container>
@@ -170,7 +170,7 @@ const GirlSandalProducts: React.FC = () => {
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/thrdsecthrd.png`}
+                  src={`${process.env.PUBLIC_URL}/images/camera/thrdsecsec.png`}
                   alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />

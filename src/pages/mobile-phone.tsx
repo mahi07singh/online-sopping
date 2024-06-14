@@ -13,7 +13,7 @@ const MobilePhones: React.FC = () => {
       '_blank'
     );
   };
-// Function to handle button click
+  // Function to handle button click
   const handleFrstBuy = () => {
     // Open the Amazon link in a new tab
     window.open('https://amzn.to/3R4b4wq', '_blank');
@@ -21,9 +21,12 @@ const MobilePhones: React.FC = () => {
   // Function to handle button click
   const handleThrsdBuy = () => {
     // Open the Amazon link in a new tab
-    window.open('https://www.amazon.in/dp/B09G9FPGTN/ref=sspa_dk_detail_6?psc=1&pd_rd_i=B09G9FPGTN&pd_rd_w=Cjshq&content-id=amzn1.sym.dcd65529-2e56-4c74-bf19-15db07b4a1fc&pf_rd_p=dcd65529-2e56-4c74-bf19-15db07b4a1fc&pf_rd_r=RKXPX68P0ABA061FCVFD&pd_rd_wg=ScBvQ&pd_rd_r=b3c1a803-d179-4ced-b50e-4de1e6939699&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM', '_blank');
+    window.open(
+      'https://www.amazon.in/dp/B09G9FPGTN/ref=sspa_dk_detail_6?psc=1&pd_rd_i=B09G9FPGTN&pd_rd_w=Cjshq&content-id=amzn1.sym.dcd65529-2e56-4c74-bf19-15db07b4a1fc&pf_rd_p=dcd65529-2e56-4c74-bf19-15db07b4a1fc&pf_rd_r=RKXPX68P0ABA061FCVFD&pd_rd_wg=ScBvQ&pd_rd_r=b3c1a803-d179-4ced-b50e-4de1e6939699&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM',
+      '_blank'
+    );
   };
-  
+
   return (
     <>
       <Helmet>
@@ -45,10 +48,15 @@ const MobilePhones: React.FC = () => {
           property="og:image"
           content={`${process.env.PUBLIC_URL}/favicon.png`}
         />
-        <meta property="og:url" content="#" />
+        <meta
+          property="og:url"
+          content="https://mohit-online-shopping.netlify.app/mobile-phones#redmi"
+        />
       </Helmet>
       {/* Main Heading of the Home Page */}
-      <h1 className="visually-hidden">Home - Online Shopping App & Website</h1>
+      <h1 className="visually-hidden">
+        Mobile Phones - Online Shopping App & Website
+      </h1>
       {/* This is the First Section of Home Page */}
       <section>
         <Container>
@@ -173,7 +181,7 @@ const MobilePhones: React.FC = () => {
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/mobile/thrdsecthrd.png`}
+                  src={`${process.env.PUBLIC_URL}/images/mobile/thrdsecsec.png`}
                   alt="Not Supported"
                   className={`${Styles.imageStyle} pointer`}
                 />
@@ -212,10 +220,7 @@ const MobilePhones: React.FC = () => {
                   HDR recording{' '}
                 </li>
               </ul>
-              <Button
-                variant="outline-primary"
-                onClick={handleThrsdBuy}
-              >
+              <Button variant="outline-primary" onClick={handleThrsdBuy}>
                 Buy Now <FaShoppingCart style={{ marginLeft: '3px' }} />
               </Button>
             </Col>

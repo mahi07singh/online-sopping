@@ -26,27 +26,34 @@ const LedTv: React.FC = () => {
   return (
     <>
       <Helmet>
-      <title>LED TVs - Mohit's Shopping App</title>
-      <meta
-        name="description"
-        content="Discover the best deals on high-definition LED TVs at Mohit's Shopping App. Explore our wide range of LED TVs with stunning picture quality and advanced features."
-      />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta property="og:title" content="LED TVs - Mohit's Shopping App" />
-      <meta
-        property="og:description"
-        content="Shop the latest LED TVs at Mohit's Shopping App. Enjoy amazing deals on top brands with cutting-edge technology and vibrant visuals."
-      />
-      <meta
-        property="og:image"
-        content={`${process.env.PUBLIC_URL}/images/led-tv.jpg`} // Update the image path accordingly
-      />
-      {/* <meta property="og:url" content="https://www.mohitshoppingapp.com/led-tvs" /> */}
-      <meta property="og:url" content="#" />
-      <meta name="keywords" content="LED TVs, high-definition, 4K, smart TV, home entertainment, Mohit's Shopping App" />
-    </Helmet>
+        <title>LED TVs - Mohit's Shopping App</title>
+        <meta
+          name="description"
+          content="Discover the best deals on high-definition LED TVs at Mohit's Shopping App. Explore our wide range of LED TVs with stunning picture quality and advanced features."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:title" content="LED TVs - Mohit's Shopping App" />
+        <meta
+          property="og:description"
+          content="Shop the latest LED TVs at Mohit's Shopping App. Enjoy amazing deals on top brands with cutting-edge technology and vibrant visuals."
+        />
+        <meta
+          property="og:image"
+          content={`${process.env.PUBLIC_URL}/favicon.png`} // Update the image path accordingly
+        />
+        <meta
+          property="og:url"
+          content="https://mohit-online-shopping.netlify.app/led-television"
+        />
+        <meta
+          name="keywords"
+          content="LED TVs, high-definition, 4K, smart TV, home entertainment, Mohit's Shopping App"
+        />
+      </Helmet>
       {/* Main Heading of the Home Page */}
-      <h1 className="visually-hidden">Home - Online Shopping App & Website</h1>
+      <h1 className="visually-hidden">
+        LED TVs - Online Shopping App & Website
+      </h1>
       {/* This is the First Section of Home Page */}
       <section>
         <Container>
@@ -174,7 +181,7 @@ const LedTv: React.FC = () => {
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/led/thrdsecthrd.png`}
+                  src={`${process.env.PUBLIC_URL}/images/led/thrdsecsec.png`}
                   alt="Please Check Your Internet connection.."
                   className={`${Styles.imageStyle} pointer`}
                 />

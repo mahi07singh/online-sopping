@@ -1,11 +1,24 @@
 import { useState } from 'react';
 import { Helmet } from 'react-helmet';
-import { Carousel, Container, Row, Col, Button, Card } from 'react-bootstrap';
+import {
+  Carousel,
+  Container,
+  Row,
+  Col,
+  Button,
+  Card,
+  OverlayTrigger,
+  Popover,
+} from 'react-bootstrap';
 import Styles from '../styles/pages/home.module.css';
 import { useNavigate } from 'react-router-dom';
 import { FaArrowRight, FaShoppingCart } from 'react-icons/fa';
 
 const Home: React.FC = () => {
+  const [showPopover, setShowPopover] = useState<{ [key: string]: boolean }>(
+    {}
+  ); // State to manage the visibility of each popover
+
   // this is state for show and hide
   const [isShowContent, setIsShowContent] = useState(false);
   // this is state for show and hide
@@ -75,9 +88,9 @@ const Home: React.FC = () => {
   };
 
   // Function to handle button click
-  const handleSprtWCrKitButtonClick = () => {
+  const handleHngRkButtonClick = () => {
     // Open the Amazon link in a new tab
-    window.open('https://amzn.to/3KuvKKm', '_blank');
+    window.open('https://amzn.to/3xrwflk', '_blank');
   };
 
   // Function to handle button click
@@ -150,13 +163,13 @@ const Home: React.FC = () => {
   // Function to handle image click
   const handleSptWCrKitImageClick = () => {
     // Navigate to the /about-us route
-    navigate('/sports-wcriket-kit');
+    navigate('/hanging-rack');
   };
 
   // Function to handle image click
   const handleSptMCrKitImageClick = () => {
     // Navigate to the /about-us route
-    navigate('/sports-mcriket-kit');
+    navigate('/sports-mcricket-kit');
   };
 
   // Function to navigate to contact
@@ -165,11 +178,27 @@ const Home: React.FC = () => {
     navigate('/contact');
   };
 
-  // Function to navigate to contact
-  const handleGProductClick = () => {
-    // Navigate to the /about-us route
-    navigate('/girls-products');
+  // // Function to navigate to contact
+  // const handleGProductClick = () => {
+  //   // Navigate to the /about-us route
+  //   navigate('/girls-products');
+  // };
+
+  const handleButtonClick = (id: string) => {
+    setShowPopover((prevState) => ({
+      ...prevState,
+      [id]: !prevState[id], // Toggle the visibility of the popover with the specified id
+    }));
   };
+
+  const popover = (
+    <Popover id="popover-basic">
+      <Popover.Header as="h3">Important Message</Popover.Header>
+      <Popover.Body>
+        Wait for the <strong>Latest Update</strong> Okay.
+      </Popover.Body>
+    </Popover>
+  );
 
   return (
     <>
@@ -189,7 +218,10 @@ const Home: React.FC = () => {
           property="og:image"
           content={`${process.env.PUBLIC_URL}/favicon.png`}
         />
-        <meta property="og:url" content="#" />
+        <meta
+          property="og:url"
+          content="https://mohit-online-shopping.netlify.app/"
+        />
       </Helmet>
       {/* Main Heading of the Home Page */}
       <h1 className="visually-hidden">Home - Online Shopping App & Website</h1>
@@ -219,18 +251,31 @@ const Home: React.FC = () => {
                   variant="outline-light"
                   onClick={handleClick}
                 >
-                  Contacts
+                  Contacts Us
                 </Button>
-                <Button
+                {/* <Button
                   className={Styles.carouselButton}
                   variant="info"
                   onClick={handleGProductClick}
                 >
-                  Products
-                </Button>
+                  Girl's Products
+                </Button> */}
+                <OverlayTrigger
+                  trigger="click"
+                  placement="bottom"
+                  overlay={popover}
+                  show={showPopover['card1']} // Use the state value for this popover id
+                >
+                  <Button
+                    className={Styles.carouselButton}
+                    onClick={() => handleButtonClick('card1')} // Pass the id to identify which button is clicked
+                  >
+                    Girls' Products
+                  </Button>
+                </OverlayTrigger>
               </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            {/* <Carousel.Item>
               <div className={Styles.overlay}></div>
               <img
                 className={`${Styles.carouselImage} w-100`}
@@ -287,7 +332,7 @@ const Home: React.FC = () => {
                   Products
                 </Button>
               </Carousel.Caption>
-            </Carousel.Item>
+            </Carousel.Item> */}
           </Carousel>
         </Container>
       </section>
@@ -385,10 +430,8 @@ const Home: React.FC = () => {
                 />
                 <hr className={Styles.hr} />
                 <Card.Body>
-                  <Card.Title>WiFi Adapter</Card.Title>
-                  <Card.Text>
-                    Generic AR9271 802.11n 150 Mbps Wireless USB
-                  </Card.Text>
+                  <Card.Title>Channel Soundbarr</Card.Title>
+                  <Card.Text>Channel soundbar with 6.5" subwoofer</Card.Text>
                   <Button
                     variant="outline-primary"
                     onClick={handleFrthButtonClick}
@@ -588,21 +631,20 @@ const Home: React.FC = () => {
                     <Card className={Styles.secSecCard}>
                       <Card.Img
                         variant="top"
-                        src={`${process.env.PUBLIC_URL}/images/home/wcricket-kit.png`}
+                        src={`${process.env.PUBLIC_URL}/images/home/hanging-rack.png`}
                         onClick={handleSptWCrKitImageClick}
                         className={`${Styles.cardSecImage} ${Styles.pointer}`}
                         alt="Please Check Your Internet connection.."
                       />
                       <hr className={Styles.hr} />
                       <Card.Body>
-                        <Card.Title>CW SG Nylon Cricket Kit</Card.Title>
+                        <Card.Title>Sports Gear Storage</Card.Title>
                         <Card.Text>
-                          Combo with Spofly Brand Ideal for Age Between 10 to 11
-                          Year
+                          Multi Sports Gear Storage Hanging Rack
                         </Card.Text>
                         <Button
                           variant="outline-primary"
-                          onClick={handleSprtWCrKitButtonClick}
+                          onClick={handleHngRkButtonClick}
                         >
                           Buy Now
                         </Button>

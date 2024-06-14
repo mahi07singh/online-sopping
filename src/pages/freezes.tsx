@@ -24,28 +24,35 @@ const Freezes: React.FC = () => {
   };
   return (
     <>
-     <Helmet>
-      <title>Freezers - Mohit's Shopping App</title>
-      <meta
-        name="description"
-        content="Explore top-quality freezers at Mohit's Shopping App. Discover a variety of freezers to keep your food fresh and your kitchen stylish. Shop now for the best deals on freezers."
-      />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta property="og:title" content="Freezers - Mohit's Shopping App" />
-      <meta
-        property="og:description"
-        content="Find the best freezers at Mohit's Shopping App. Browse our selection of top brands and models to keep your food fresh and organized."
-      />
-      <meta
-        property="og:image"
-        content={`${process.env.PUBLIC_URL}/images/freezer.jpg`} // Update the image path accordingly
-      />
-      {/* <meta property="og:url" content="https://www.mohitshoppingapp.com/freezers" /> */}
-      <meta property="og:url" content="#" />
-      <meta name="keywords" content="freezers, refrigerators, kitchen appliances, home appliances, Mohit's Shopping App" />
-    </Helmet>
+      <Helmet>
+        <title>Freezers - Mohit's Shopping App</title>
+        <meta
+          name="description"
+          content="Explore top-quality freezers at Mohit's Shopping App. Discover a variety of freezers to keep your food fresh and your kitchen stylish. Shop now for the best deals on freezers."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:title" content="Freezers - Mohit's Shopping App" />
+        <meta
+          property="og:description"
+          content="Find the best freezers at Mohit's Shopping App. Browse our selection of top brands and models to keep your food fresh and organized."
+        />
+        <meta
+          property="og:image"
+          content={`${process.env.PUBLIC_URL}/favicon.png`} // Update the image path accordingly
+        />
+        <meta
+          property="og:url"
+          content="https://mohit-online-shopping.netlify.app/freezes"
+        />
+        <meta
+          name="keywords"
+          content="freezers, refrigerators, kitchen appliances, home appliances, Mohit's Shopping App"
+        />
+      </Helmet>
       {/* Main Heading of the Home Page */}
-      <h1 className="visually-hidden">Home - Online Shopping App & Website</h1>
+      <h1 className="visually-hidden">
+        Freezers - Online Shopping App & Website
+      </h1>
       {/* This is the First Section of Home Page */}
       <section>
         <Container>
