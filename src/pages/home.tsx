@@ -184,7 +184,7 @@ const Home: React.FC = () => {
   //   navigate('/girls-products');
   // };
 
-  const handleButtonClick = (id: string) => {
+  const handleButtonClick: any = (id: string) => {
     setShowPopover((prevState) => ({
       ...prevState,
       [id]: !prevState[id], // Toggle the visibility of the popover with the specified id
@@ -352,7 +352,7 @@ const Home: React.FC = () => {
                   src={`${process.env.PUBLIC_URL}/images/home/first.png`}
                   onClick={handleFstImageClick}
                   className={`${Styles.cardImage} ${Styles.pointer}`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Redmi 12 5G Pastel Blue 4GB RAM 128GB ROM."
                 />
                 <hr className={Styles.hr} />
                 <Card.Body>
@@ -377,7 +377,7 @@ const Home: React.FC = () => {
                   src={`${process.env.PUBLIC_URL}/images/home/second.png`}
                   className={`${Styles.cardImage} ${Styles.pointer}`}
                   onClick={handleSecImageClick}
-                  alt="Please Check Your Internet connection.."
+                  alt="Generic AR9271 802.11n 150 Mbps Wireless USB."
                 />
                 <hr className={Styles.hr} />
                 <Card.Body>
@@ -401,7 +401,7 @@ const Home: React.FC = () => {
                   src={`${process.env.PUBLIC_URL}/images/home/third.png`}
                   onClick={handleThdImageClick}
                   className={`${Styles.cardImage} ${Styles.pointer}`}
-                  alt="Please Check Your Internet connection.."
+                  alt="For Youtube, 3 Inch Ips 64Mp Digital Camera."
                 />
                 <hr className={Styles.hr} />
                 <Card.Body>
@@ -426,7 +426,7 @@ const Home: React.FC = () => {
                   src={`${process.env.PUBLIC_URL}/images/home/fourth.png`}
                   className={`${Styles.cardImage} ${Styles.pointer}`}
                   onClick={handleFrthImageClick}
-                  alt="Please Check Your Internet connection.."
+                  alt="Channel soundbar with 6.5' subwoofer."
                 />
                 <hr className={Styles.hr} />
                 <Card.Body>
@@ -453,7 +453,8 @@ const Home: React.FC = () => {
                         src={`${process.env.PUBLIC_URL}/images/home/led.png`}
                         onClick={handleLedImageClick}
                         className={`${Styles.cardImage} ${Styles.pointer}`}
-                        alt="Please Check Your Internet connection.."
+                        alt="TCL 139 cm Metallic Bezel-Less Series 4K Ultra HD
+                        Smart LED."
                       />
                       <hr className={Styles.hr} />
                       <Card.Body>
@@ -479,7 +480,7 @@ const Home: React.FC = () => {
                         src={`${process.env.PUBLIC_URL}/images/home/freeze.png`}
                         className={`${Styles.cardImage} ${Styles.pointer}`}
                         onClick={handleFrzImageClick}
-                        alt="Please Check Your Internet connection.."
+                        alt="Digital Inverter, Direct-Cool Single Door Refrigerator."
                       />
                       <hr className={Styles.hr} />
                       <Card.Body>
@@ -531,7 +532,7 @@ const Home: React.FC = () => {
                   src={`${process.env.PUBLIC_URL}/images/home/virat.png`}
                   onClick={handleSptFImageClick}
                   className={`${Styles.cardSecImage} ${Styles.pointer}`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Positivity Sports India t20 Jersey 2024 World Cup."
                 />
                 <hr className={Styles.hr} />
                 <Card.Body>
@@ -556,7 +557,7 @@ const Home: React.FC = () => {
                   src={`${process.env.PUBLIC_URL}/images/home/spike.png`}
                   className={`${Styles.cardSecImage} ${Styles.pointer}`}
                   onClick={handleSptSecImageClick}
-                  alt="Please Check Your Internet connection.."
+                  alt="Athletic Spikes Track & Field Shoes for Mens Spikes."
                 />
                 <hr className={Styles.hr} />
                 <Card.Body>
@@ -580,7 +581,7 @@ const Home: React.FC = () => {
                   src={`${process.env.PUBLIC_URL}/images/home/archery.png`}
                   onClick={handleSptArcImageClick}
                   className={`${Styles.cardSecImage} ${Styles.pointer}`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Archery Bow and Arrow Set with Dart Target Board."
                 />
                 <hr className={Styles.hr} />
                 <Card.Body>
@@ -605,7 +606,7 @@ const Home: React.FC = () => {
                   src={`${process.env.PUBLIC_URL}/images/home/badminton.png`}
                   className={`${Styles.cardSecImage} ${Styles.pointer}`}
                   onClick={handleSptBtmnImageClick}
-                  alt="Please Check Your Internet connection.."
+                  alt="2 Wide Body Shuttle Bat with Cover,10 Nylon Shuttles."
                 />
                 <hr className={Styles.hr} />
                 <Card.Body>
@@ -634,7 +635,7 @@ const Home: React.FC = () => {
                         src={`${process.env.PUBLIC_URL}/images/home/hanging-rack.png`}
                         onClick={handleSptWCrKitImageClick}
                         className={`${Styles.cardSecImage} ${Styles.pointer}`}
-                        alt="Please Check Your Internet connection.."
+                        alt="Multi Sports Gear Storage Hanging Rack."
                       />
                       <hr className={Styles.hr} />
                       <Card.Body>
@@ -658,7 +659,7 @@ const Home: React.FC = () => {
                         src={`${process.env.PUBLIC_URL}/images/home/mcricket-kit.png`}
                         className={`${Styles.cardSecImage} ${Styles.pointer}`}
                         onClick={handleSptMCrKitImageClick}
-                        alt="Please Check Your Internet connection.."
+                        alt="SQ SPORTS MRF Grand Edition (Genius) VK-18 Cricket Kit."
                       />
                       <hr className={Styles.hr} />
                       <Card.Body>
