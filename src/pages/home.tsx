@@ -7,17 +7,17 @@ import {
   Col,
   Button,
   Card,
-  OverlayTrigger,
-  Popover,
+  // OverlayTrigger,
+  // Popover,
 } from 'react-bootstrap';
 import Styles from '../styles/pages/home.module.css';
 import { useNavigate } from 'react-router-dom';
 import { FaArrowRight, FaShoppingCart } from 'react-icons/fa';
 
 const Home: React.FC = () => {
-  const [showPopover, setShowPopover] = useState<{ [key: string]: boolean }>(
-    {}
-  ); // State to manage the visibility of each popover
+  // const [showPopover, setShowPopover] = useState<{ [key: string]: boolean }>(
+  //   {}
+  // ); // State to manage the visibility of each popover
 
   // this is state for show and hide
   const [isShowContent, setIsShowContent] = useState(false);
@@ -102,19 +102,19 @@ const Home: React.FC = () => {
   // Function to handle image click
   const handleFstImageClick = () => {
     // Navigate to the /about-us route
-    navigate('/mobile-phones#redmi');
+    navigate('/mobile-phones');
   };
 
   // Function to handle image click
   const handleSecImageClick = () => {
     // Navigate to the /about-us route
-    navigate('/wifi-adapter#wifi-adaper');
+    navigate('/wifi-adapter');
   };
 
   // Function to handle image click
   const handleThdImageClick = () => {
     // Navigate to the /about-us route
-    navigate('/camera#camera');
+    navigate('/camera');
   };
 
   // Function to handle image click
@@ -178,27 +178,27 @@ const Home: React.FC = () => {
     navigate('/contact');
   };
 
-  // // Function to navigate to contact
-  // const handleGProductClick = () => {
-  //   // Navigate to the /about-us route
-  //   navigate('/girls-products');
-  // };
-
-  const handleButtonClick: any = (id: string) => {
-    setShowPopover((prevState) => ({
-      ...prevState,
-      [id]: !prevState[id], // Toggle the visibility of the popover with the specified id
-    }));
+  // Function to navigate to contact
+  const handleGProductClick = () => {
+    // Navigate to the /about-us route
+    navigate('/girls-products');
   };
 
-  const popover = (
-    <Popover id="popover-basic">
-      <Popover.Header as="h3">Important Message</Popover.Header>
-      <Popover.Body>
-        Wait for the <strong>Latest Update</strong> Okay.
-      </Popover.Body>
-    </Popover>
-  );
+  // const handleButtonClick: any = (id: string) => {
+  //   setShowPopover((prevState) => ({
+  //     ...prevState,
+  //     [id]: !prevState[id], // Toggle the visibility of the popover with the specified id
+  //   }));
+  // };
+
+  // const popover = (
+  //   <Popover id="popover-basic">
+  //     <Popover.Header as="h3">Important Message</Popover.Header>
+  //     <Popover.Body>
+  //       Wait for the <strong>Latest Update</strong> Okay.
+  //     </Popover.Body>
+  //   </Popover>
+  // );
 
   return (
     <>
@@ -253,14 +253,14 @@ const Home: React.FC = () => {
                 >
                   Contacts Us
                 </Button>
-                {/* <Button
+                <Button
                   className={Styles.carouselButton}
                   variant="info"
                   onClick={handleGProductClick}
                 >
                   Girl's Products
-                </Button> */}
-                <OverlayTrigger
+                </Button>
+                {/* <OverlayTrigger
                   trigger="click"
                   placement="bottom"
                   overlay={popover}
@@ -272,7 +272,7 @@ const Home: React.FC = () => {
                   >
                     Girls' Products
                   </Button>
-                </OverlayTrigger>
+                </OverlayTrigger> */}
               </Carousel.Caption>
             </Carousel.Item>
             {/* <Carousel.Item>

@@ -8,19 +8,19 @@ const GirlKurtiProducts: React.FC = () => {
   // Function to handle button click
   const handleFrstBuy = () => {
     // Open the Amazon link in a new tab
-    window.open('https://amzn.to/3yON0HL', '_blank');
+    window.open('https://amzn.to/4cnzIjJ', '_blank');
   };
 
   // Function to handle button click
   const handleSecBuy = () => {
     // Open the Amazon link in a new tab
-    window.open('https://amzn.to/3wReKe9', '_blank');
+    window.open('https://amzn.to/3VGxBSF', '_blank');
   };
 
   // Function to handle button click
   const handleThrdBuy = () => {
     // Open the Amazon link in a new tab
-    window.open('https://amzn.to/3XawSdE', '_blank');
+    window.open('https://amzn.to/4cjDcni', '_blank');
   };
   return (
     <>
@@ -63,38 +63,51 @@ const GirlKurtiProducts: React.FC = () => {
             <Col xs={12} sm={12} md={6} className={Styles.column}>
               <div className={`${Styles.imgBox} ${Styles.firstDiv}`}>
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/frstsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/kurtis/frstsecone.png`}
+                  alt="GoSriKi Women Kurta with Pant & Dupatta."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/frstsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/kurtis/frstsecsec.png`}
+                  alt="GoSriKi Women Kurta with Pant & Dupatta."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/frstsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/kurtis/frstsecthrd.png`}
+                  alt="GoSriKi Women Kurta with Pant & Dupatta."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/frstsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/kurtis/frstsecfrth.png`}
+                  alt="GoSriKi Women Kurta with Pant & Dupatta."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
             </Col>
             <Col xs={12} sm={12} md={6} className={Styles.firstColText}>
-              <h2>Fujifilm X-T30 II 26.1MP</h2>
+              <h2>Women Kurta </h2>
               <p className="">
-                Retro Style mirrorless Compact Travel Camera|4k vlogging|High
-                Speed Recording FHD 240fps|Advance AF for
-                Street/Lifestyle/Amateurs (Body only) -Silver
+                GoSriKi Women Kurta with Pant & Dupatta
                 <hr />
                 <span className="bold d-block mt-2">About this item</span>
               </p>
               <ul>
-                <li>26.1MP APS-C X-Trans BSI CMOS 4 Sensor </li>
+                <li>
+                  Kurta Set Fabric: Cotton Blend || Kurta Set Color :- Purple
+                </li>
+                <li>
+                  This set includes: 1 Kurta and 1 Pant with Dupatta || Work :-
+                  Embroidered || Neck Style:- V-Neck
+                </li>
+                <li>
+                  Colour Declaration : There might be slight variation in the
+                  actual color of the product due to different screen
+                  resolutions.
+                </li>
+                <li>
+                  Ocassion: Traditional wear, Casual Wear, party wear, evening
+                  wear,Please Click On Brand Name "GoSriKi" For More Products.
+                </li>
               </ul>
               <Button variant="outline-primary" onClick={handleFrstBuy}>
                 Buy Now <FaShoppingCart style={{ marginLeft: '3px' }} />
@@ -104,53 +117,51 @@ const GirlKurtiProducts: React.FC = () => {
         </Container>
       </section>
       {/* This is the second Section of Home Page */}
-      <section id="camera">
+      <section>
         <Container>
           <Row>
             <Col xs={12} sm={12} md={6} className={Styles.column}>
               <div className={`${Styles.imgBox} ${Styles.secDiv}`}>
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/secsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/kurtis/secsecone.png`}
+                  alt="TRENDMALLS Women's Chaderi Cotton Embroidery Salwar Suit Set Kurta Pant with Dupatta Grey Kurta Set for Women."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/secsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/kurtis/secsecsec.png`}
+                  alt="TRENDMALLS Women's Chaderi Cotton Embroidery Salwar Suit Set Kurta Pant with Dupatta Grey Kurta Set for Women."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/secsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/kurtis/secsecthrd.png`}
+                  alt="TRENDMALLS Women's Chaderi Cotton Embroidery Salwar Suit Set Kurta Pant with Dupatta Grey Kurta Set for Women."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/secsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/kurtis/secsecfrth.png`}
+                  alt="TRENDMALLS Women's Chaderi Cotton Embroidery Salwar Suit Set Kurta Pant with Dupatta Grey Kurta Set for Women."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
             </Col>
             <Col xs={12} sm={12} md={6} className={Styles.firstColText}>
-              <h2>Vlogging Camera For Youtube</h2>
+              <h2>Embroidery Salwar Suit</h2>
               <p className="">
-                Sorandy 4K Vlogging Camera For Youtube, 3 Inch Ips 64Mp Digital
-                Camera For Photography
+                TRENDMALLS Women's Chaderi Cotton Embroidery Salwar Suit Set
+                Kurta Pant with Dupatta Grey Kurta Set for Women
                 <hr />
                 <span className="bold d-block mt-2">About this item</span>
               </p>
               <ul>
                 <li>
-                  NIGHT VISION PHOTO: The digital camera is equipped with HD
-                  night vision photo function, when the lens senses the change
-                  of light, the IR CUT switches, so that the photo can be taken
-                  in a dim environment can also produce clear and bright
-                  results.{' '}
+                  Suit Fabric: Kurta,Salwar:Chanderi Cotton; Dupatta: Soft
+                  Organza{' '}
                 </li>
+                <li>Color: Grey|| Sleeves Type: 3/4|| Neckline: Round Neck </li>
+                <li>Style: Straight Kurta Sharara Set|| Work: Embroidery</li>
                 <li>
-                  HIGH RESOLUTION SHOOTING: The digital camera has a maximum of
-                  4K 64 megapixels, which is able to catch every detail and
-                  perfectly record the wonderful life.{' '}
+                  Length: Kurta: 44 In; Sleeve: 17 In|Salwar: 38 In |Dupatta:
+                  2.25 mt [The model (height 5'8) is wearing a size S]
                 </li>
               </ul>
               <Button variant="outline-primary" onClick={handleSecBuy}>
@@ -167,48 +178,44 @@ const GirlKurtiProducts: React.FC = () => {
             <Col xs={12} sm={12} md={6} className={Styles.column}>
               <div className={`${Styles.imgBox} ${Styles.thrdDiv}`}>
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/thrdsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/kurtis/thrdsecone.png`}
+                  alt="TRENDMALLS Women's Georgette Stitched Kurti for Women II Indian Style II Anarkali II II II 2023 Stylish II Gown II Kurta Set."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/thrdsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/kurtis/thrdsecsec.png`}
+                  alt="TRENDMALLS Women's Georgette Stitched Kurti for Women II Indian Style II Anarkali II II II 2023 Stylish II Gown II Kurta Set."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/thrdsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/kurtis/thrdsecthrd.png`}
+                  alt="TRENDMALLS Women's Georgette Stitched Kurti for Women II Indian Style II Anarkali II II II 2023 Stylish II Gown II Kurta Set."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/thrdsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/kurtis/thrdsecfrth.png`}
+                  alt="TRENDMALLS Women's Georgette Stitched Kurti for Women II Indian Style II Anarkali II II II 2023 Stylish II Gown II Kurta Set."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
             </Col>
             <Col xs={12} sm={12} md={6} className={Styles.firstColText}>
-              <h2>Fujifilm X-T5 40MP</h2>
+              <h2>Stitched Kurti</h2>
               <p className="">
-                APS-C X-Trans Sensor|Pixel Shift|IBIS System|Ultra high
-                Resolution mirrorless Camera|6k 30p|1/180000 Shutter Speed|Quick
-                Lever for Photo/Video with XF 18-55mm f/2.8 Lens -Black
+                TRENDMALLS Women's Georgette Stitched Kurti for Women II Indian
+                Style II Anarkali II II II 2023 Stylish II Gown II Kurta Set
                 <hr />
                 <span className="bold d-block mt-2">About this item</span>
               </p>
               <ul>
+                <li>Kurti Fabric : Georgette Blooming || Color: Morpech </li>
                 <li>
-                  40MP APS-C X-Trans CMOS 5 HR BSI Sensor and 4K 120p, 6.2K 30p,
-                  FHD 240p 10-Bit Video{' '}
+                  Sizes: Small(36-37), Medium(38-39), Large(40-41),
+                  XL-Large(42-43), XXL-Large(44-45) (in inches){' '}
                 </li>
                 <li>
-                  7-Stop In-Body Image Stabilization and 425-Point Intelligent
-                  Hybrid AF System{' '}
-                </li>
-                <li>
-                  3.69m-Dot OLED Electronic Viewfinder and 3" 1.84m-Dot Tilting
-                  Touchscreen LCD{' '}
+                  Style: Flare Long Kurti Gown || Length: 60 Inches || Sleeve :
+                  Long Sleeve (19 Inches){' '}
                 </li>
               </ul>
               <Button variant="outline-primary" onClick={handleThrdBuy}>

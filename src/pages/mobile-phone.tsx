@@ -50,7 +50,7 @@ const MobilePhones: React.FC = () => {
         />
         <meta
           property="og:url"
-          content="https://mohit-online-shopping.netlify.app/mobile-phones#redmi"
+          content="https://mohit-online-shopping.netlify.app/mobile-phones"
         />
       </Helmet>
       {/* Main Heading of the Home Page */}
@@ -65,22 +65,22 @@ const MobilePhones: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.firstDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/mobile/secsecone.png`}
-                  alt="Not Supported"
+                  alt="Redmi 13C 5G"
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/mobile/secsecsec.png`}
-                  alt="Not Supported"
+                  alt="Redmi 13C 5G"
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/mobile/secsecthrd.png`}
-                  alt="Not Supported"
+                  alt="Redmi 13C 5G"
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/mobile/secsecfrth.png`}
-                  alt="Not Supported"
+                  alt="Redmi 13C 5G"
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
@@ -113,29 +113,29 @@ const MobilePhones: React.FC = () => {
         </Container>
       </section>
       {/* This is the second Section of Home Page */}
-      <section id="redmi">
+      <section>
         <Container>
           <Row>
             <Col xs={12} sm={12} md={6} className={Styles.column}>
               <div className={`${Styles.imgBox} ${Styles.secDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/mobile/firstsecone.png`}
-                  alt="Not Supported"
+                  alt="Redmi 12 5G"
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/mobile/firstsecsec.png`}
-                  alt="Not Supported"
+                  alt="Redmi 12 5G"
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/mobile/firstsecthrd.png`}
-                  alt="Not Supported"
+                  alt="Redmi 12 5G"
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/mobile/firstsecfrth.png`}
-                  alt="Not Supported"
+                  alt="Redmi 12 5G"
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
@@ -177,22 +177,22 @@ const MobilePhones: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.thrdDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/mobile/thrdsecone.png`}
-                  alt="Not Supported"
+                  alt="Apple iPhone 13"
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/mobile/thrdsecsec.png`}
-                  alt="Not Supported"
+                  alt="Apple iPhone 13"
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/mobile/thrdsecthrd.png`}
-                  alt="Not Supported"
+                  alt="Apple iPhone 13"
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/mobile/thrdsecfrth.png`}
-                  alt="Not Supported"
+                  alt="Apple iPhone 13"
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>

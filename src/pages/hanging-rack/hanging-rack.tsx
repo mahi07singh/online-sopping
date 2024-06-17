@@ -64,22 +64,22 @@ const HangingRack: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.firstDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/hanging/frstsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Sports Equipment Organizer Rack."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/hanging/frstsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Sports Equipment Organizer Rack."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/hanging/frstsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Sports Equipment Organizer Rack."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/hanging/frstsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Sports Equipment Organizer Rack."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
@@ -124,22 +124,22 @@ const HangingRack: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.secDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/hanging/secsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Arhat Organizers Sports Ball Stand."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/hanging/secsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Arhat Organizers Sports Ball Stand."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/hanging/secsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Arhat Organizers Sports Ball Stand."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/hanging/secsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Arhat Organizers Sports Ball Stand."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
@@ -180,22 +180,22 @@ const HangingRack: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.thrdDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/hanging/thrdsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="TSports Equipment Storage Rack."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/hanging/thrdsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="TSports Equipment Storage Rack."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/hanging/thrdsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="TSports Equipment Storage Rack."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/hanging/thrdsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="TSports Equipment Storage Rack."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>

@@ -64,22 +64,22 @@ const SportsArcery: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.firstDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-archery/frstsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Sports Super Archery."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-archery/frstsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Sports Super Archery."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-archery/frstsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Sports Super Archery."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-archery/frstsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Sports Super Archery."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
@@ -120,22 +120,22 @@ const SportsArcery: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.secDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-archery/secsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Sports Super Archery."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-archery/secsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Sports Super Archery."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-archery/secsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Sports Super Archery."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-archery/secsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Sports Super Archery."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
@@ -176,22 +176,22 @@ const SportsArcery: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.thrdDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-archery/thrdsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Zrinix Kids Archery."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-archery/thrdsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Zrinix Kids Archery."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-archery/thrdsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Zrinix Kids Archery."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-archery/thrdsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Zrinix Kids Archery."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>

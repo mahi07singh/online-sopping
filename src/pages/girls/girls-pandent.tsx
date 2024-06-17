@@ -8,19 +8,19 @@ const GirlPandentProducts: React.FC = () => {
   // Function to handle button click
   const handleFrstBuy = () => {
     // Open the Amazon link in a new tab
-    window.open('https://amzn.to/3yON0HL', '_blank');
+    window.open('https://amzn.to/3KJuWkP', '_blank');
   };
 
   // Function to handle button click
   const handleSecBuy = () => {
     // Open the Amazon link in a new tab
-    window.open('https://amzn.to/3wReKe9', '_blank');
+    window.open('https://amzn.to/3KMc8Bs', '_blank');
   };
 
   // Function to handle button click
   const handleThrdBuy = () => {
     // Open the Amazon link in a new tab
-    window.open('https://amzn.to/3XawSdE', '_blank');
+    window.open('https://amzn.to/3xlW869', '_blank');
   };
   return (
     <>
@@ -63,38 +63,48 @@ const GirlPandentProducts: React.FC = () => {
             <Col xs={12} sm={12} md={6} className={Styles.column}>
               <div className={`${Styles.imgBox} ${Styles.firstDiv}`}>
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/frstsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/pandent/frstsecone.png`}
+                  alt="ZENEME Rhodium-Plated Silver Toned Green Cubic Zirconia studded Floral Shaped Cute Pendant with Earrings Jewellery Set for Girls and Women (Green)."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/frstsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/pandent/frstsecsec.png`}
+                  alt="ZENEME Rhodium-Plated Silver Toned Green Cubic Zirconia studded Floral Shaped Cute Pendant with Earrings Jewellery Set for Girls and Women (Green)."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/frstsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/pandent/frstsecthrd.png`}
+                  alt="ZENEME Rhodium-Plated Silver Toned Green Cubic Zirconia studded Floral Shaped Cute Pendant with Earrings Jewellery Set for Girls and Women (Green)."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/frstsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/pandent/frstsecfrth.png`}
+                  alt="ZENEME Rhodium-Plated Silver Toned Green Cubic Zirconia studded Floral Shaped Cute Pendant with Earrings Jewellery Set for Girls and Women (Green)."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
             </Col>
             <Col xs={12} sm={12} md={6} className={Styles.firstColText}>
-              <h2>Fujifilm X-T30 II 26.1MP</h2>
+              <h2>Rhodium-Plated Silver</h2>
               <p className="">
-                Retro Style mirrorless Compact Travel Camera|4k vlogging|High
-                Speed Recording FHD 240fps|Advance AF for
-                Street/Lifestyle/Amateurs (Body only) -Silver
+                ZENEME Rhodium-Plated Silver Toned Green Cubic Zirconia studded
+                Floral Shaped Cute Pendant with Earrings Jewellery Set for Girls
+                and Women (Green)
                 <hr />
                 <span className="bold d-block mt-2">About this item</span>
               </p>
               <ul>
-                <li>26.1MP APS-C X-Trans BSI CMOS 4 Sensor </li>
+                <li>
+                  2What You Get:- Rhodium-Plated Silver Toned Cute Pendant with
+                  Earrings, has Cubic Zirconia studded Floral Shaped, Pendant
+                  secured with S-Hook closure and Earrings secured with Post and
+                  Back closure.{' '}
+                </li>
+                <li>
+                  Nickel free and Lead free as per International Standards that
+                  makes it very skin friendly. The plating is non-allergic and
+                  safe for all environments.
+                </li>
               </ul>
               <Button variant="outline-primary" onClick={handleFrstBuy}>
                 Buy Now <FaShoppingCart style={{ marginLeft: '3px' }} />
@@ -104,54 +114,53 @@ const GirlPandentProducts: React.FC = () => {
         </Container>
       </section>
       {/* This is the second Section of Home Page */}
-      <section id="camera">
+      <section>
         <Container>
           <Row>
             <Col xs={12} sm={12} md={6} className={Styles.column}>
               <div className={`${Styles.imgBox} ${Styles.secDiv}`}>
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/secsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/pandent/secsecone.png`}
+                  alt="Om Jewells Blue Crystal Jewellery Combo Of Groovy Necklace Set And Bangle Bracelet For Girls And Women CO1000063"
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/secsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/pandent/secsecsec.png`}
+                  alt="Om Jewells Blue Crystal Jewellery Combo Of Groovy Necklace Set And Bangle Bracelet For Girls And Women CO1000063"
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/secsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/pandent/secsecthrd.png`}
+                  alt="Om Jewells Blue Crystal Jewellery Combo Of Groovy Necklace Set And Bangle Bracelet For Girls And Women CO1000063"
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/secsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/pandent/secsecfrth.png`}
+                  alt="Om Jewells Blue Crystal Jewellery Combo Of Groovy Necklace Set And Bangle Bracelet For Girls And Women CO1000063"
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
             </Col>
             <Col xs={12} sm={12} md={6} className={Styles.firstColText}>
-              <h2>Vlogging Camera For Youtube</h2>
+              <h2>Om Jewells</h2>
               <p className="">
-                Sorandy 4K Vlogging Camera For Youtube, 3 Inch Ips 64Mp Digital
-                Camera For Photography
+                Om Jewells Blue Crystal Jewellery Combo Of Groovy Necklace Set
+                And Bangle Bracelet For Girls And Women CO1000063
                 <hr />
                 <span className="bold d-block mt-2">About this item</span>
               </p>
               <ul>
+                <li>Metal : Metal Alloy, Plating : Rhodium </li>
+                <li>Stone : Crystal, Color : Blue; White </li>
                 <li>
-                  NIGHT VISION PHOTO: The digital camera is equipped with HD
-                  night vision photo function, when the lens senses the change
-                  of light, the IR CUT switches, so that the photo can be taken
-                  in a dim environment can also produce clear and bright
-                  results.{' '}
+                  Chain shown in the imag is included in the product. Size of
+                  Chain is 18 inches.
                 </li>
                 <li>
-                  HIGH RESOLUTION SHOOTING: The digital camera has a maximum of
-                  4K 64 megapixels, which is able to catch every detail and
-                  perfectly record the wonderful life.{' '}
+                  Artificial Jewellery for Casual Outings , Size : Pendant:
+                  4.6cm x 1.2cm ; Earrings: 4 cm x 1cm
                 </li>
+                <li>All Om Jewells products are MADE IN INDIA .</li>
               </ul>
               <Button variant="outline-primary" onClick={handleSecBuy}>
                 Buy Now <FaShoppingCart style={{ marginLeft: '3px' }} />
@@ -167,48 +176,48 @@ const GirlPandentProducts: React.FC = () => {
             <Col xs={12} sm={12} md={6} className={Styles.column}>
               <div className={`${Styles.imgBox} ${Styles.thrdDiv}`}>
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/thrdsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/pandent/thrdsecone.png`}
+                  alt="Gehena By Estele Gold Plated Necklace Set For Women."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/thrdsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/pandent/thrdsecsec.png`}
+                  alt="Gehena By Estele Gold Plated Necklace Set For Women."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/thrdsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/pandent/thrdsecthrd.png`}
+                  alt="Gehena By Estele Gold Plated Necklace Set For Women."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/thrdsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/pandent/thrdsecfrth.png`}
+                  alt="Gehena By Estele Gold Plated Necklace Set For Women."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
             </Col>
             <Col xs={12} sm={12} md={6} className={Styles.firstColText}>
-              <h2>Fujifilm X-T5 40MP</h2>
+              <h2>Gold Plated Necklace</h2>
               <p className="">
-                APS-C X-Trans Sensor|Pixel Shift|IBIS System|Ultra high
-                Resolution mirrorless Camera|6k 30p|1/180000 Shutter Speed|Quick
-                Lever for Photo/Video with XF 18-55mm f/2.8 Lens -Black
+                Gehena By Estele Gold Plated Necklace Set For Women
                 <hr />
                 <span className="bold d-block mt-2">About this item</span>
               </p>
               <ul>
                 <li>
-                  40MP APS-C X-Trans CMOS 5 HR BSI Sensor and 4K 120p, 6.2K 30p,
-                  FHD 240p 10-Bit Video{' '}
+                  Material: Alloy; Colour: Gold; Occasion: Ethnic; Stone Type:
+                  Crystal; Stone Color: Multi; Pack Contents: 10 Necklace sets{' '}
                 </li>
                 <li>
-                  7-Stop In-Body Image Stabilization and 425-Point Intelligent
-                  Hybrid AF System{' '}
+                  Gehena by estele gold plated necklace sets with austrian
+                  crystals for girls and women is perfectly suited for wedding
+                  party wear.{' '}
                 </li>
                 <li>
-                  3.69m-Dot OLED Electronic Viewfinder and 3" 1.84m-Dot Tilting
-                  Touchscreen LCD{' '}
+                  It features a lustrous and eye-catching finish which gives a
+                  really glamorous touch to your look. Add this classic piece
+                  along with workwear or a western outfit to look beautiful.{' '}
                 </li>
               </ul>
               <Button variant="outline-primary" onClick={handleThrdBuy}>

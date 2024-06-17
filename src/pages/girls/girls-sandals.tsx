@@ -8,19 +8,19 @@ const GirlSandalProducts: React.FC = () => {
   // Function to handle button click
   const handleFrstBuy = () => {
     // Open the Amazon link in a new tab
-    window.open('https://amzn.to/3yON0HL', '_blank');
+    window.open('https://amzn.to/3xlXu0J', '_blank');
   };
 
   // Function to handle button click
   const handleSecBuy = () => {
     // Open the Amazon link in a new tab
-    window.open('https://amzn.to/3wReKe9', '_blank');
+    window.open('https://amzn.to/4b7fWIq', '_blank');
   };
 
   // Function to handle button click
   const handleThrdBuy = () => {
     // Open the Amazon link in a new tab
-    window.open('https://amzn.to/3XawSdE', '_blank');
+    window.open('https://amzn.to/4c1RWrs', '_blank');
   };
   return (
     <>
@@ -53,7 +53,9 @@ const GirlSandalProducts: React.FC = () => {
         />
       </Helmet>
       {/* Main Heading of the Home Page */}
-      <h1 className="visually-hidden">Girl's Sandals - Online Shopping App & Website</h1>
+      <h1 className="visually-hidden">
+        Girl's Sandals - Online Shopping App & Website
+      </h1>
       {/* This is the First Section of Home Page */}
       <section>
         <Container>
@@ -61,38 +63,45 @@ const GirlSandalProducts: React.FC = () => {
             <Col xs={12} sm={12} md={6} className={Styles.column}>
               <div className={`${Styles.imgBox} ${Styles.firstDiv}`}>
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/frstsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/sandals/frstsecone.png`}
+                  alt="Shoetopia womens Abc Heeled Sandal."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/frstsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/sandals/frstsecsec.png`}
+                  alt="Shoetopia womens Abc Heeled Sandal."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/frstsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/sandals/frstsecthrd.png`}
+                  alt="Shoetopia womens Abc Heeled Sandal."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/frstsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/sandals/frstsecfrth.png`}
+                  alt="Shoetopia womens Abc Heeled Sandal."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
             </Col>
             <Col xs={12} sm={12} md={6} className={Styles.firstColText}>
-              <h2>Fujifilm X-T30 II 26.1MP</h2>
+              <h2>Heeled Sandal</h2>
               <p className="">
-                Retro Style mirrorless Compact Travel Camera|4k vlogging|High
-                Speed Recording FHD 240fps|Advance AF for
-                Street/Lifestyle/Amateurs (Body only) -Silver
+                Shoetopia womens Abc Heeled Sandal
                 <hr />
                 <span className="bold d-block mt-2">About this item</span>
               </p>
               <ul>
-                <li>26.1MP APS-C X-Trans BSI CMOS 4 Sensor </li>
+                <li>Size & Fit : Heel height: 6.15 cm(2.5 inches)</li>
+                <li>
+                  Material & Care :Synthetic Wipe with a clean, dry cloth to
+                  remove dust{' '}
+                </li>
+                <li>
+                  Type : Sandals | Heel Type : Wedge | Sole Material : Resin |
+                  Fastening and Back Detail : Open Back | Toe Shape : Round Toe
+                  | Ankle Height : Regular | Pattern : Woven Design
+                </li>
               </ul>
               <Button variant="outline-primary" onClick={handleFrstBuy}>
                 Buy Now <FaShoppingCart style={{ marginLeft: '3px' }} />
@@ -102,53 +111,55 @@ const GirlSandalProducts: React.FC = () => {
         </Container>
       </section>
       {/* This is the second Section of Home Page */}
-      <section id="camera">
+      <section>
         <Container>
           <Row>
             <Col xs={12} sm={12} md={6} className={Styles.column}>
               <div className={`${Styles.imgBox} ${Styles.secDiv}`}>
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/secsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/sandals/secsecone.png`}
+                  alt="Shoetopia Embroidered Ethnic Kolhapuri Wedgess For Women & Girls."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/secsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/sandals/secsecsec.png`}
+                  alt="Shoetopia Embroidered Ethnic Kolhapuri Wedgess For Women & Girls."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/secsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/sandals/secsecthrd.png`}
+                  alt="Shoetopia Embroidered Ethnic Kolhapuri Wedgess For Women & Girls."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/secsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/sandals/secsecfrth.png`}
+                  alt="Shoetopia Embroidered Ethnic Kolhapuri Wedgess For Women & Girls."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
             </Col>
             <Col xs={12} sm={12} md={6} className={Styles.firstColText}>
-              <h2>Vlogging Camera For Youtube</h2>
+              <h2>Shoetopia Embroidered </h2>
               <p className="">
-                Sorandy 4K Vlogging Camera For Youtube, 3 Inch Ips 64Mp Digital
-                Camera For Photography
+                Shoetopia Embroidered Ethnic Kolhapuri Wedgess For Women & Girls
                 <hr />
                 <span className="bold d-block mt-2">About this item</span>
               </p>
               <ul>
                 <li>
-                  NIGHT VISION PHOTO: The digital camera is equipped with HD
-                  night vision photo function, when the lens senses the change
-                  of light, the IR CUT switches, so that the photo can be taken
-                  in a dim environment can also produce clear and bright
-                  results.{' '}
+                  Size Disclaimer: Please measure your feet length before
+                  buying, and compare the size chart to choose the most suitable
+                  size.{' '}
                 </li>
                 <li>
-                  HIGH RESOLUTION SHOOTING: The digital camera has a maximum of
-                  4K 64 megapixels, which is able to catch every detail and
-                  perfectly record the wonderful life.{' '}
+                  Shoetopia Women Wedges are Very Comfortable to wear. They're
+                  well made with extra comfortable padded insole, slip-resistant
+                  resin outsole and soft anti-sweat lining.{' '}
+                </li>
+                <li>
+                  Fashionable and Comfortable: standing walking without pain all
+                  day. This pair of Wedges is a perfect blend of trend and
+                  comfort.{' '}
                 </li>
               </ul>
               <Button variant="outline-primary" onClick={handleSecBuy}>
@@ -165,48 +176,43 @@ const GirlSandalProducts: React.FC = () => {
             <Col xs={12} sm={12} md={6} className={Styles.column}>
               <div className={`${Styles.imgBox} ${Styles.thrdDiv}`}>
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/thrdsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/sandals/thrdsecone.png`}
+                  alt="Mochi Women Wedge Heel Fashion Sandal."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/thrdsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/sandals/thrdsecsec.png`}
+                  alt="Mochi Women Wedge Heel Fashion Sandal."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/thrdsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/sandals/thrdsecthrd.png`}
+                  alt="Mochi Women Wedge Heel Fashion Sandal."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/thrdsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/sandals/thrdsecfrth.png`}
+                  alt="Mochi Women Wedge Heel Fashion Sandal."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
             </Col>
             <Col xs={12} sm={12} md={6} className={Styles.firstColText}>
-              <h2>Fujifilm X-T5 40MP</h2>
+              <h2>Wedge Heel</h2>
               <p className="">
-                APS-C X-Trans Sensor|Pixel Shift|IBIS System|Ultra high
-                Resolution mirrorless Camera|6k 30p|1/180000 Shutter Speed|Quick
-                Lever for Photo/Video with XF 18-55mm f/2.8 Lens -Black
+                Mochi Women Wedge Heel Fashion Sandal
                 <hr />
                 <span className="bold d-block mt-2">About this item</span>
               </p>
               <ul>
+                <li>Material:SYNTHETIC </li>
+                <li>Lifestyle:Casual </li>
+                <li>Heel Type:Wedges </li>
+                <li>Heel Height:3 Inch </li>
                 <li>
-                  40MP APS-C X-Trans CMOS 5 HR BSI Sensor and 4K 120p, 6.2K 30p,
-                  FHD 240p 10-Bit Video{' '}
-                </li>
-                <li>
-                  7-Stop In-Body Image Stabilization and 425-Point Intelligent
-                  Hybrid AF System{' '}
-                </li>
-                <li>
-                  3.69m-Dot OLED Electronic Viewfinder and 3" 1.84m-Dot Tilting
-                  Touchscreen LCD{' '}
+                  Care Instructions: Rotate your pair of shoes once every other
+                  day, allowing them to de-odorize and retain their shapes.Use
+                  Shoe bags to prevent any stains or mildew{' '}
                 </li>
               </ul>
               <Button variant="outline-primary" onClick={handleThrdBuy}>

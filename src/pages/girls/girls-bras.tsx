@@ -8,19 +8,19 @@ const GirlBraProducts: React.FC = () => {
   // Function to handle button click
   const handleFrstBuy = () => {
     // Open the Amazon link in a new tab
-    window.open('https://amzn.to/3yON0HL', '_blank');
+    window.open('https://amzn.to/4cjDkmS', '_blank');
   };
 
   // Function to handle button click
   const handleSecBuy = () => {
     // Open the Amazon link in a new tab
-    window.open('https://amzn.to/3wReKe9', '_blank');
+    window.open('https://amzn.to/3VlYb26', '_blank');
   };
 
   // Function to handle button click
   const handleThrdBuy = () => {
     // Open the Amazon link in a new tab
-    window.open('https://amzn.to/3XawSdE', '_blank');
+    window.open('https://amzn.to/3z5Su0Q', '_blank');
   };
   return (
     <>
@@ -63,38 +63,41 @@ const GirlBraProducts: React.FC = () => {
             <Col xs={12} sm={12} md={6} className={Styles.column}>
               <div className={`${Styles.imgBox} ${Styles.firstDiv}`}>
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/frstsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/bras/frstsecone.png`}
+                  alt="Clovia Women's Medium Impact Padded Colourblocked Racerback Sports Bra with Front Zipper."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/frstsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/bras/frstsecsec.png`}
+                  alt="Clovia Women's Medium Impact Padded Colourblocked Racerback Sports Bra with Front Zipper."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/frstsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/bras/frstsecthrd.png`}
+                  alt="Clovia Women's Medium Impact Padded Colourblocked Racerback Sports Bra with Front Zipper."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/frstsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/bras/frstsecfrth.png`}
+                  alt="Clovia Women's Medium Impact Padded Colourblocked Racerback Sports Bra with Front Zipper."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
             </Col>
             <Col xs={12} sm={12} md={6} className={Styles.firstColText}>
-              <h2>Fujifilm X-T30 II 26.1MP</h2>
+              <h2>Sports Bra</h2>
               <p className="">
-                Retro Style mirrorless Compact Travel Camera|4k vlogging|High
-                Speed Recording FHD 240fps|Advance AF for
-                Street/Lifestyle/Amateurs (Body only) -Silver
+                Clovia Women's Medium Impact Padded Colourblocked Racerback
+                Sports Bra with Front Zipper
                 <hr />
                 <span className="bold d-block mt-2">About this item</span>
               </p>
               <ul>
-                <li>26.1MP APS-C X-Trans BSI CMOS 4 Sensor </li>
+                <li>Product Type: Sports Bra</li>
+                <li>Fabric: Polyester,Spandex</li>
+                <li>Pad Type: Padded</li>
+                <li>Wire Type: Wire Free</li>
+                <li>Closure: Zipper</li>
               </ul>
               <Button variant="outline-primary" onClick={handleFrstBuy}>
                 Buy Now <FaShoppingCart style={{ marginLeft: '3px' }} />
@@ -104,53 +107,62 @@ const GirlBraProducts: React.FC = () => {
         </Container>
       </section>
       {/* This is the second Section of Home Page */}
-      <section id="camera">
+      <section>
         <Container>
           <Row>
             <Col xs={12} sm={12} md={6} className={Styles.column}>
               <div className={`${Styles.imgBox} ${Styles.secDiv}`}>
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/secsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/bras/secsecone.png`}
+                  alt="Fabluk Cotton Sports Bra for Yoga, Sports, Gym & Workout -
+                Breathable, Supportive, and Stylish Everyday Wear, Ideal for All
+                Women."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/secsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/bras/secsecsec.png`}
+                  alt="Fabluk Cotton Sports Bra for Yoga, Sports, Gym & Workout -
+                Breathable, Supportive, and Stylish Everyday Wear, Ideal for All
+                Women."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/secsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/bras/secsecthrd.png`}
+                  alt="Fabluk Cotton Sports Bra for Yoga, Sports, Gym & Workout -
+                Breathable, Supportive, and Stylish Everyday Wear, Ideal for All
+                Women."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/secsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/bras/secsecfrth.png`}
+                  alt="Fabluk Cotton Sports Bra for Yoga, Sports, Gym & Workout -
+                Breathable, Supportive, and Stylish Everyday Wear, Ideal for All
+                Women."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
             </Col>
             <Col xs={12} sm={12} md={6} className={Styles.firstColText}>
-              <h2>Vlogging Camera For Youtube</h2>
+              <h2>Cotton Sports Bra</h2>
               <p className="">
-                Sorandy 4K Vlogging Camera For Youtube, 3 Inch Ips 64Mp Digital
-                Camera For Photography
+                Fabluk Cotton Sports Bra for Yoga, Sports, Gym & Workout -
+                Breathable, Supportive, and Stylish Everyday Wear, Ideal for All
+                Women
                 <hr />
                 <span className="bold d-block mt-2">About this item</span>
               </p>
               <ul>
                 <li>
-                  NIGHT VISION PHOTO: The digital camera is equipped with HD
-                  night vision photo function, when the lens senses the change
-                  of light, the IR CUT switches, so that the photo can be taken
-                  in a dim environment can also produce clear and bright
-                  results.{' '}
+                  🌿 Ultimate Comfort - Delight in the caress of high-quality
+                  cotton that promises breathability and all-day comfort.
+                  Perfect for any activity, from intense workouts to casual
+                  lounging. 🌬️👚{' '}
                 </li>
                 <li>
-                  HIGH RESOLUTION SHOOTING: The digital camera has a maximum of
-                  4K 64 megapixels, which is able to catch every detail and
-                  perfectly record the wonderful life.{' '}
+                  💪 Robust Support - Tackle any challenge with confidence! Our
+                  sports bra features wide straps and a strong elastic band,
+                  ensuring you feel secure during high-impact exercises like
+                  running and jumping. 🏃‍♀️🔒{' '}
                 </li>
               </ul>
               <Button variant="outline-primary" onClick={handleSecBuy}>
@@ -167,48 +179,47 @@ const GirlBraProducts: React.FC = () => {
             <Col xs={12} sm={12} md={6} className={Styles.column}>
               <div className={`${Styles.imgBox} ${Styles.thrdDiv}`}>
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/thrdsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/bras/thrdsecone.png`}
+                  alt="Pack of 4 Cotton Seamless Wire-Free Sports Bras for Women - Non-Padded, Regular Fit Sports Blouse in Multicolor."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/thrdsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/bras/thrdsecsec.png`}
+                  alt="Pack of 4 Cotton Seamless Wire-Free Sports Bras for Women - Non-Padded, Regular Fit Sports Blouse in Multicolor."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/thrdsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/bras/thrdsecthrd.png`}
+                  alt="Pack of 4 Cotton Seamless Wire-Free Sports Bras for Women - Non-Padded, Regular Fit Sports Blouse in Multicolor."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/thrdsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/bras/thrdsecfrth.png`}
+                  alt="Pack of 4 Cotton Seamless Wire-Free Sports Bras for Women - Non-Padded, Regular Fit Sports Blouse in Multicolor."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
             </Col>
             <Col xs={12} sm={12} md={6} className={Styles.firstColText}>
-              <h2>Fujifilm X-T5 40MP</h2>
+              <h2>Wire-Free Sports Bras </h2>
               <p className="">
-                APS-C X-Trans Sensor|Pixel Shift|IBIS System|Ultra high
-                Resolution mirrorless Camera|6k 30p|1/180000 Shutter Speed|Quick
-                Lever for Photo/Video with XF 18-55mm f/2.8 Lens -Black
+                Pack of 4 Cotton Seamless Wire-Free Sports Bras for Women -
+                Non-Padded, Regular Fit Sports Blouse in Multicolor
                 <hr />
                 <span className="bold d-block mt-2">About this item</span>
               </p>
               <ul>
                 <li>
-                  40MP APS-C X-Trans CMOS 5 HR BSI Sensor and 4K 120p, 6.2K 30p,
-                  FHD 240p 10-Bit Video{' '}
+                  Premium Quality Cotton: Made from soft and breathable cotton
+                  fabric for all-day comfort.{' '}
                 </li>
                 <li>
-                  7-Stop In-Body Image Stabilization and 425-Point Intelligent
-                  Hybrid AF System{' '}
+                  Seamless Design: Ensures a smooth appearance under clothing,
+                  reducing visible lines.{' '}
                 </li>
                 <li>
-                  3.69m-Dot OLED Electronic Viewfinder and 3" 1.84m-Dot Tilting
-                  Touchscreen LCD{' '}
+                  Wire-Free Comfort: Offers maximum support without the
+                  discomfort of wires, perfect for everyday wear.{' '}
                 </li>
               </ul>
               <Button variant="outline-primary" onClick={handleThrdBuy}>

@@ -45,7 +45,7 @@ const WifiAdapter: React.FC = () => {
         />
         <meta
           property="og:url"
-          content="https://mohit-online-shopping.netlify.app/wifi-adapter#wifi-adaper"
+          content="https://mohit-online-shopping.netlify.app/wifi-adapter"
         />
       </Helmet>
       {/* Main Heading of the Home Page */}
@@ -60,22 +60,22 @@ const WifiAdapter: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.firstDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/wifi/frstsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Wireless USB Adaptor."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/wifi/frstsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Wireless USB Adaptor."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/wifi/frstsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Wireless USB Adaptor."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/wifi/frstsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Wireless USB Adaptor."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
@@ -109,29 +109,29 @@ const WifiAdapter: React.FC = () => {
         </Container>
       </section>
       {/* This is the second Section of Home Page */}
-      <section id="wifi-adaper">
+      <section>
         <Container>
           <Row>
             <Col xs={12} sm={12} md={6} className={Styles.column}>
               <div className={`${Styles.imgBox} ${Styles.secDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/wifi/secsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Wireless USB WiFi Adapter."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/wifi/secsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Wireless USB WiFi Adapter."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/wifi/secsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Wireless USB WiFi Adapter."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/wifi/secsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Wireless USB WiFi Adapter."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
@@ -174,22 +174,22 @@ const WifiAdapter: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.thrdDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/wifi/thrdsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Netgear Nighthawk Ac1900."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/wifi/thrdsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Netgear Nighthawk Ac1900."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/wifi/thrdsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Netgear Nighthawk Ac1900."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/wifi/thrdsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Netgear Nighthawk Ac1900."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>

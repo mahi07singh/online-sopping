@@ -65,22 +65,22 @@ const SportsMCricketKit: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.firstDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/cricket/frstsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="SG Nylon Full Cricket Kit Combo."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/cricket/frstsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="SG Nylon Full Cricket Kit Combo."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/cricket/frstsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="SG Nylon Full Cricket Kit Combo."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/cricket/frstsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="SG Nylon Full Cricket Kit Combo."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
@@ -124,22 +124,22 @@ const SportsMCricketKit: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.secDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/cricket/secsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="CW Tournament Cricket Training Kit."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/cricket/secsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="CW Tournament Cricket Training Kit."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/cricket/secsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="CW Tournament Cricket Training Kit."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/cricket/secsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="CW Tournament Cricket Training Kit."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
@@ -181,22 +181,22 @@ const SportsMCricketKit: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.thrdDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/cricket/thrdsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt=" CW Lefty Academy Full Cricket Kit."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/cricket/thrdsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt=" CW Lefty Academy Full Cricket Kit."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/cricket/thrdsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt=" CW Lefty Academy Full Cricket Kit."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/cricket/thrdsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt=" CW Lefty Academy Full Cricket Kit."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>

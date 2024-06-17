@@ -61,22 +61,22 @@ const Freezes: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.firstDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/freezes/frstsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Samsung 183 L, 4 Star, Digital Inverter."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/freezes/frstsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Samsung 183 L, 4 Star, Digital Inverter."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/freezes/frstsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Samsung 183 L, 4 Star, Digital Inverter."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/freezes/frstsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Samsung 183 L, 4 Star, Digital Inverter."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
@@ -119,22 +119,22 @@ const Freezes: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.secDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/freezes/secsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Godrej 180 L 4 Star Turbo Cooling Technology."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/freezes/secsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Godrej 180 L 4 Star Turbo Cooling Technology."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/freezes/secsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Godrej 180 L 4 Star Turbo Cooling Technology."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/freezes/secsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Godrej 180 L 4 Star Turbo Cooling Technology."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
@@ -177,22 +177,22 @@ const Freezes: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.thrdDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/freezes/thrdsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Whirlpool 192 L 5 Star Icemagic Powercool Inverter ."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/freezes/thrdsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Whirlpool 192 L 5 Star Icemagic Powercool Inverter ."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/freezes/thrdsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Whirlpool 192 L 5 Star Icemagic Powercool Inverter ."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/freezes/thrdsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Whirlpool 192 L 5 Star Icemagic Powercool Inverter ."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>

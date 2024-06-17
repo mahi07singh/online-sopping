@@ -65,22 +65,22 @@ const SportsTShirts: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.firstDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-shirts/frstsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Positivity Sports t20 World Cup Jersey 2024 India."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-shirts/frstsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Positivity Sports t20 World Cup Jersey 2024 India."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-shirts/frstsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Positivity Sports t20 World Cup Jersey 2024 India."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-shirts/frstsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Positivity Sports t20 World Cup Jersey 2024 India."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
@@ -122,22 +122,22 @@ const SportsTShirts: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.secDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-shirts/secsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Ind T20 World Cup Cricket Jersey 2024."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-shirts/secsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Ind T20 World Cup Cricket Jersey 2024."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-shirts/secsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Ind T20 World Cup Cricket Jersey 2024."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-shirts/secsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Ind T20 World Cup Cricket Jersey 2024."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
@@ -175,22 +175,22 @@ const SportsTShirts: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.thrdDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-shirts/thrdsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Sports Cricket Team Official New CSK Dhoni 7 Jersey ."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-shirts/thrdsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Sports Cricket Team Official New CSK Dhoni 7 Jersey ."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-shirts/thrdsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Sports Cricket Team Official New CSK Dhoni 7 Jersey ."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-shirts/thrdsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Sports Cricket Team Official New CSK Dhoni 7 Jersey ."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>

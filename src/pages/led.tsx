@@ -62,22 +62,22 @@ const LedTv: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.firstDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/led/frstsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="TCL 139 cm (55 inches) Metallic Bezel-Less Series 4K Ultra HD."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/led/frstsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="TCL 139 cm (55 inches) Metallic Bezel-Less Series 4K Ultra HD."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/led/frstsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="TCL 139 cm (55 inches) Metallic Bezel-Less Series 4K Ultra HD."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/led/frstsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="TCL 139 cm (55 inches) Metallic Bezel-Less Series 4K Ultra HD."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
@@ -120,22 +120,22 @@ const LedTv: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.secDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/led/secsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Xiaomi 125 cm (50 inches) X 4K Dolby Vision Series Smart Google."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/led/secsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Xiaomi 125 cm (50 inches) X 4K Dolby Vision Series Smart Google."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/led/secsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Xiaomi 125 cm (50 inches) X 4K Dolby Vision Series Smart Google."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/led/secsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Xiaomi 125 cm (50 inches) X 4K Dolby Vision Series Smart Google."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
@@ -177,22 +177,22 @@ const LedTv: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.thrdDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/led/thrdsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Xiaomi 125 cm (50 inches) X Pro 4K Dolby Vision IQ Series Smart."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/led/thrdsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Xiaomi 125 cm (50 inches) X Pro 4K Dolby Vision IQ Series Smart."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/led/thrdsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Xiaomi 125 cm (50 inches) X Pro 4K Dolby Vision IQ Series Smart."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/led/thrdsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Xiaomi 125 cm (50 inches) X Pro 4K Dolby Vision IQ Series Smart."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
