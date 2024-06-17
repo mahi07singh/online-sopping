@@ -65,22 +65,22 @@ const SportsShoes: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.firstDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-shoes/frstsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Prokick Turbo Running Spikes Shoes."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-shoes/frstsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Prokick Turbo Running Spikes Shoes."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-shoes/frstsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Prokick Turbo Running Spikes Shoes."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-shoes/frstsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Prokick Turbo Running Spikes Shoes."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
@@ -125,22 +125,22 @@ const SportsShoes: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.secDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-shoes/secsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Vector X Flyer Running Spike Shoe."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-shoes/secsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Vector X Flyer Running Spike Shoe."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-shoes/secsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Vector X Flyer Running Spike Shoe."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-shoes/secsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Vector X Flyer Running Spike Shoe."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
@@ -171,22 +171,22 @@ const SportsShoes: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.thrdDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-shoes/thrdsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Vector X Sprint Running Shoes (Black-Grey)."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-shoes/thrdsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Vector X Sprint Running Shoes (Black-Grey)."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-shoes/thrdsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Vector X Sprint Running Shoes (Black-Grey)."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/sports-shoes/thrdsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Vector X Sprint Running Shoes (Black-Grey)."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>

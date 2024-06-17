@@ -45,7 +45,7 @@ const Camera: React.FC = () => {
         />
         <meta
           property="og:url"
-          content="https://mohit-online-shopping.netlify.app/camera#camera"
+          content="https://mohit-online-shopping.netlify.app/camera"
         />
         <meta
           name="keywords"
@@ -64,22 +64,22 @@ const Camera: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.firstDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/camera/frstsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Fujifilm X-T30 II 26.1MP."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/camera/frstsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Fujifilm X-T30 II 26.1MP."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/camera/frstsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Fujifilm X-T30 II 26.1MP."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/camera/frstsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Fujifilm X-T30 II 26.1MP."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
@@ -104,29 +104,33 @@ const Camera: React.FC = () => {
         </Container>
       </section>
       {/* This is the second Section of Home Page */}
-      <section id="camera">
+      <section>
         <Container>
           <Row>
             <Col xs={12} sm={12} md={6} className={Styles.column}>
               <div className={`${Styles.imgBox} ${Styles.secDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/camera/secsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="orandy 4K Vlogging Camera For Youtube, 3 Inch Ips 64Mp Digital
+                Camera For Photography."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/camera/secsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="orandy 4K Vlogging Camera For Youtube, 3 Inch Ips 64Mp Digital
+                Camera For Photography."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/camera/secsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="orandy 4K Vlogging Camera For Youtube, 3 Inch Ips 64Mp Digital
+                Camera For Photography."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/camera/secsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="orandy 4K Vlogging Camera For Youtube, 3 Inch Ips 64Mp Digital
+                Camera For Photography."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
@@ -168,22 +172,22 @@ const Camera: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.thrdDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/camera/thrdsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Fujifilm X-T5 40MP."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/camera/thrdsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Fujifilm X-T5 40MP."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/camera/thrdsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Fujifilm X-T5 40MP."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/camera/thrdsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Fujifilm X-T5 40MP."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>

@@ -52,7 +52,7 @@ const GirlProducts = () => {
     // Navigate to the /about-us route
     navigate('/jewelry-pendants');
   };
-  
+
   // Function to handle image click
   const handleSecImageClick = () => {
     // Navigate to the /about-us route
@@ -127,7 +127,7 @@ const GirlProducts = () => {
                   src={`${process.env.PUBLIC_URL}/images/girls/pandent/fourth.png`}
                   className={`${Styles.cardImage} ${Styles.pointer}`}
                   onClick={handleFrthImageClick}
-                  alt="Please Check Your Internet connection.."
+                  alt="Rhodium-Plated Silver."
                 />
                 <hr className={Styles.hr} />
                 <Card.Body>
@@ -148,7 +148,7 @@ const GirlProducts = () => {
                   src={`${process.env.PUBLIC_URL}/images/girls/sandals/second.png`}
                   className={`${Styles.cardImage} ${Styles.pointer}`}
                   onClick={handleSecImageClick}
-                  alt="Please Check Your Internet connection.."
+                  alt="Heeled Sandal."
                 />
                 <hr className={Styles.hr} />
                 <Card.Body>
@@ -167,7 +167,7 @@ const GirlProducts = () => {
                   src={`${process.env.PUBLIC_URL}/images/girls/skin/thrd.png`}
                   onClick={handleThrdImageClick}
                   className={`${Styles.cardImage} ${Styles.pointer}`}
-                  alt="Please Check Your Internet connection.."
+                  alt="POND's Super Light Gel."
                 />
                 <hr className={Styles.hr} />
                 <Card.Body>
@@ -189,7 +189,7 @@ const GirlProducts = () => {
                   src={`${process.env.PUBLIC_URL}/images/girls/bras/first.png`}
                   onClick={handleBraImageClick}
                   className={`${Styles.cardImage} ${Styles.pointer}`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Sports Bra ."
                 />
                 <hr className={Styles.hr} />
                 <Card.Body>
@@ -215,7 +215,7 @@ const GirlProducts = () => {
                         src={`${process.env.PUBLIC_URL}/images/girls/sarees/fifth.png`}
                         onClick={handleSareeImageClick}
                         className={`${Styles.cardImage} ${Styles.pointer}`}
-                        alt="Please Check Your Internet connection.."
+                        alt="Banarasi Silk Saree."
                       />
                       <hr className={Styles.hr} />
                       <Card.Body>
@@ -241,7 +241,7 @@ const GirlProducts = () => {
                         src={`${process.env.PUBLIC_URL}/images/girls/kurtis/first.png`}
                         className={`${Styles.cardImage} ${Styles.pointer}`}
                         onClick={handleFrstImageClick}
-                        alt="Please Check Your Internet connection.."
+                        alt="Women Kurta."
                       />
                       <hr className={Styles.hr} />
                       <Card.Body>

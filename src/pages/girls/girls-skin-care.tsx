@@ -8,19 +8,19 @@ const GirlSkinCareProducts: React.FC = () => {
   // Function to handle button click
   const handleFrstBuy = () => {
     // Open the Amazon link in a new tab
-    window.open('https://amzn.to/3yON0HL', '_blank');
+    window.open('https://amzn.to/4cpA5dx', '_blank');
   };
 
   // Function to handle button click
   const handleSecBuy = () => {
     // Open the Amazon link in a new tab
-    window.open('https://amzn.to/3wReKe9', '_blank');
+    window.open('https://amzn.to/3z04GjM', '_blank');
   };
 
   // Function to handle button click
   const handleThrdBuy = () => {
     // Open the Amazon link in a new tab
-    window.open('https://amzn.to/3XawSdE', '_blank');
+    window.open('https://amzn.to/3zc7E4w', '_blank');
   };
   return (
     <>
@@ -63,38 +63,47 @@ const GirlSkinCareProducts: React.FC = () => {
             <Col xs={12} sm={12} md={6} className={Styles.column}>
               <div className={`${Styles.imgBox} ${Styles.firstDiv}`}>
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/frstsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/skin/frstsecone.png`}
+                  alt="POND's Super Light Gel, Oil-Free Moisturizer, 200G, For Hydrated, Glowing Skin, With Hyaluronic Acid & Vitamin E, 24Hr Hydration, Non-Sticky, Spreads Easily & Instantly Absorbs."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/frstsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/skin/frstsecsec.png`}
+                  alt="POND's Super Light Gel, Oil-Free Moisturizer, 200G, For Hydrated, Glowing Skin, With Hyaluronic Acid & Vitamin E, 24Hr Hydration, Non-Sticky, Spreads Easily & Instantly Absorbs."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/frstsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/skin/frstsecthrd.png`}
+                  alt="POND's Super Light Gel, Oil-Free Moisturizer, 200G, For Hydrated, Glowing Skin, With Hyaluronic Acid & Vitamin E, 24Hr Hydration, Non-Sticky, Spreads Easily & Instantly Absorbs."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/frstsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/skin/frstsecfrth.png`}
+                  alt="POND's Super Light Gel, Oil-Free Moisturizer, 200G, For Hydrated, Glowing Skin, With Hyaluronic Acid & Vitamin E, 24Hr Hydration, Non-Sticky, Spreads Easily & Instantly Absorbs."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
             </Col>
             <Col xs={12} sm={12} md={6} className={Styles.firstColText}>
-              <h2>Fujifilm X-T30 II 26.1MP</h2>
+              <h2>POND's Super Light Gel</h2>
               <p className="">
-                Retro Style mirrorless Compact Travel Camera|4k vlogging|High
-                Speed Recording FHD 240fps|Advance AF for
-                Street/Lifestyle/Amateurs (Body only) -Silver
+                POND's Super Light Gel, Oil-Free Moisturizer, 200G, For
+                Hydrated, Glowing Skin, With Hyaluronic Acid & Vitamin E, 24Hr
+                Hydration, Non-Sticky, Spreads Easily & Instantly Absorbs
                 <hr />
                 <span className="bold d-block mt-2">About this item</span>
               </p>
               <ul>
-                <li>26.1MP APS-C X-Trans BSI CMOS 4 Sensor </li>
+                <li>
+                  SUPER LIGHTWEIGHT: The Ponds gel moisturizer is a game-changer
+                  when it comes to lightweight skincare.{' '}
+                </li>
+                <li>
+                  The gel based moisturizer for oily skin comes with an
+                  innovative gel formula that is designed to be super
+                  lightweight and non-oily, making it the perfect choice for
+                  anyone.
+                </li>
               </ul>
               <Button variant="outline-primary" onClick={handleFrstBuy}>
                 Buy Now <FaShoppingCart style={{ marginLeft: '3px' }} />
@@ -104,53 +113,52 @@ const GirlSkinCareProducts: React.FC = () => {
         </Container>
       </section>
       {/* This is the second Section of Home Page */}
-      <section id="camera">
+      <section>
         <Container>
           <Row>
             <Col xs={12} sm={12} md={6} className={Styles.column}>
               <div className={`${Styles.imgBox} ${Styles.secDiv}`}>
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/secsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/skin/secsecone.png`}
+                  alt="Dot & Key Vitamin C + E Sorbet Super Bright Moisturizer For Face | Vitamin C Face Moisturizer|Fades Pigmentation & Dark Spots, Reduces Skin Dullness|Oil Free & Lightweight | For All Skin Types | 60Ml."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/secsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/skin/secsecsec.png`}
+                  alt="Dot & Key Vitamin C + E Sorbet Super Bright Moisturizer For Face | Vitamin C Face Moisturizer|Fades Pigmentation & Dark Spots, Reduces Skin Dullness|Oil Free & Lightweight | For All Skin Types | 60Ml."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/secsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/skin/secsecthrd.png`}
+                  alt="Dot & Key Vitamin C + E Sorbet Super Bright Moisturizer For Face | Vitamin C Face Moisturizer|Fades Pigmentation & Dark Spots, Reduces Skin Dullness|Oil Free & Lightweight | For All Skin Types | 60Ml."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/secsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/skin/secsecfrth.png`}
+                  alt="Dot & Key Vitamin C + E Sorbet Super Bright Moisturizer For Face | Vitamin C Face Moisturizer|Fades Pigmentation & Dark Spots, Reduces Skin Dullness|Oil Free & Lightweight | For All Skin Types | 60Ml."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
             </Col>
             <Col xs={12} sm={12} md={6} className={Styles.firstColText}>
-              <h2>Vlogging Camera For Youtube</h2>
+              <h2>Bright Moisturizer</h2>
               <p className="">
-                Sorandy 4K Vlogging Camera For Youtube, 3 Inch Ips 64Mp Digital
-                Camera For Photography
+                Dot & Key Vitamin C + E Sorbet Super Bright Moisturizer For Face
+                | Vitamin C Face Moisturizer|Fades Pigmentation & Dark Spots,
+                Reduces Skin Dullness|Oil Free & Lightweight | For All Skin
+                Types | 60Ml
                 <hr />
                 <span className="bold d-block mt-2">About this item</span>
               </p>
               <ul>
                 <li>
-                  NIGHT VISION PHOTO: The digital camera is equipped with HD
-                  night vision photo function, when the lens senses the change
-                  of light, the IR CUT switches, so that the photo can be taken
-                  in a dim environment can also produce clear and bright
-                  results.{' '}
+                  A lightweight, cream with three types of vitamin C- 100%
+                  natural vitamin C from Kakadu Plum, Ethyl Ascorbic Acid &
+                  Sodium Ascorbyl Phosphate.{' '}
                 </li>
                 <li>
-                  HIGH RESOLUTION SHOOTING: The digital camera has a maximum of
-                  4K 64 megapixels, which is able to catch every detail and
-                  perfectly record the wonderful life.{' '}
+                  An antioxidant-rich cream, it helps reduce dullness &
+                  intensely moisturizes for super-soft, youthful glowing skin.{' '}
                 </li>
               </ul>
               <Button variant="outline-primary" onClick={handleSecBuy}>
@@ -167,48 +175,49 @@ const GirlSkinCareProducts: React.FC = () => {
             <Col xs={12} sm={12} md={6} className={Styles.column}>
               <div className={`${Styles.imgBox} ${Styles.thrdDiv}`}>
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/thrdsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/skin/thrdsecone.png`}
+                  alt="DOT & KEY Strawberry Dew Strobe Cream For Face Skin Radiance Cream | Moisturizer & Highlighter For Face | For Dewy Glazed Instant Glow | Boosts Hydration | For All Skin Types | For Women & Men | 30Ml."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/thrdsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/skin/thrdsecsec.png`}
+                  alt="DOT & KEY Strawberry Dew Strobe Cream For Face Skin Radiance Cream | Moisturizer & Highlighter For Face | For Dewy Glazed Instant Glow | Boosts Hydration | For All Skin Types | For Women & Men | 30Ml."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/thrdsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/skin/thrdsecthrd.png`}
+                  alt="DOT & KEY Strawberry Dew Strobe Cream For Face Skin Radiance Cream | Moisturizer & Highlighter For Face | For Dewy Glazed Instant Glow | Boosts Hydration | For All Skin Types | For Women & Men | 30Ml."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/camera/thrdsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  src={`${process.env.PUBLIC_URL}/images/girls/skin/thrdsecfrth.png`}
+                  alt="DOT & KEY Strawberry Dew Strobe Cream For Face Skin Radiance Cream | Moisturizer & Highlighter For Face | For Dewy Glazed Instant Glow | Boosts Hydration | For All Skin Types | For Women & Men | 30Ml."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
             </Col>
             <Col xs={12} sm={12} md={6} className={Styles.firstColText}>
-              <h2>Fujifilm X-T5 40MP</h2>
+              <h2>Strawberry Dew Strobe Cream</h2>
               <p className="">
-                APS-C X-Trans Sensor|Pixel Shift|IBIS System|Ultra high
-                Resolution mirrorless Camera|6k 30p|1/180000 Shutter Speed|Quick
-                Lever for Photo/Video with XF 18-55mm f/2.8 Lens -Black
+                DOT & KEY Strawberry Dew Strobe Cream For Face Skin Radiance
+                Cream | Moisturizer & Highlighter For Face | For Dewy Glazed
+                Instant Glow | Boosts Hydration | For All Skin Types | For Women
+                & Men | 30Ml
                 <hr />
                 <span className="bold d-block mt-2">About this item</span>
               </p>
               <ul>
                 <li>
-                  40MP APS-C X-Trans CMOS 5 HR BSI Sensor and 4K 120p, 6.2K 30p,
-                  FHD 240p 10-Bit Video{' '}
+                  DEWY, GLAZED SKIN INSTANTLY - Flaunt dewy, glazed skin
+                  instantly with this highlighting moisturizer{' '}
                 </li>
                 <li>
-                  7-Stop In-Body Image Stabilization and 425-Point Intelligent
-                  Hybrid AF System{' '}
+                  WORKS AS A MOISTURIZER & HIGHLIGHTER - Provides lightweight
+                  moisturization with a beautiful dewy finish.{' '}
                 </li>
                 <li>
-                  3.69m-Dot OLED Electronic Viewfinder and 3" 1.84m-Dot Tilting
-                  Touchscreen LCD{' '}
+                  FOR ALL SKIN TONES - Corrects discolouration & boosts skin
+                  radiance over time.{' '}
                 </li>
               </ul>
               <Button variant="outline-primary" onClick={handleThrdBuy}>

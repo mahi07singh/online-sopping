@@ -62,22 +62,22 @@ const Subwoofer: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.firstDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/subwoofer/frstsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="PRO 5.1 Channel soundbar with 6.5' subwoofer, 180W RMS."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/subwoofer/frstsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="PRO 5.1 Channel soundbar with 6.5' subwoofer, 180W RMS."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/subwoofer/frstsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="PRO 5.1 Channel soundbar with 6.5' subwoofer, 180W RMS."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/subwoofer/frstsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="PRO 5.1 Channel soundbar with 6.5' subwoofer, 180W RMS."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
@@ -115,22 +115,22 @@ const Subwoofer: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.secDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/subwoofer/secsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="i Gear Ensemble 20 watts Wooden Portable Soundbar with Wireless."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/subwoofer/secsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="i Gear Ensemble 20 watts Wooden Portable Soundbar with Wireless."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/subwoofer/secsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="i Gear Ensemble 20 watts Wooden Portable Soundbar with Wireless."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/subwoofer/secsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="i Gear Ensemble 20 watts Wooden Portable Soundbar with Wireless."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
@@ -170,22 +170,22 @@ const Subwoofer: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.thrdDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/subwoofer/thrdsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="RGB Lights, Soundbar for Phone/TV/Laptop/Tablets/Projectors."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/subwoofer/thrdsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="RGB Lights, Soundbar for Phone/TV/Laptop/Tablets/Projectors."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/subwoofer/thrdsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="RGB Lights, Soundbar for Phone/TV/Laptop/Tablets/Projectors."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/subwoofer/thrdsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="RGB Lights, Soundbar for Phone/TV/Laptop/Tablets/Projectors."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>

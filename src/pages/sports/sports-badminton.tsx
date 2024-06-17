@@ -64,22 +64,22 @@ const SportsBadminton: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.firstDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/badminton/frstsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Sports Aluminum Full Badminton Kit."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/badminton/frstsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Sports Aluminum Full Badminton Kit."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/badminton/frstsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Sports Aluminum Full Badminton Kit."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/badminton/frstsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Sports Aluminum Full Badminton Kit."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
@@ -122,22 +122,22 @@ const SportsBadminton: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.secDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/badminton/secsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Hipkoo Sports HXBRSETBL_3COCK_NET Hr 15 Badminton Combo."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/badminton/secsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Hipkoo Sports HXBRSETBL_3COCK_NET Hr 15 Badminton Combo."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/badminton/secsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Hipkoo Sports HXBRSETBL_3COCK_NET Hr 15 Badminton Combo."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/badminton/secsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Hipkoo Sports HXBRSETBL_3COCK_NET Hr 15 Badminton Combo."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
@@ -172,22 +172,22 @@ const SportsBadminton: React.FC = () => {
               <div className={`${Styles.imgBox} ${Styles.thrdDiv}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/badminton/thrdsecone.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Two Badminton Game Rackets."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/badminton/thrdsecsec.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Two Badminton Game Rackets."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/badminton/thrdsecthrd.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Two Badminton Game Rackets."
                   className={`${Styles.imageStyle} pointer`}
                 />
                 <img
                   src={`${process.env.PUBLIC_URL}/images/badminton/thrdsecfrth.png`}
-                  alt="Please Check Your Internet connection.."
+                  alt="Two Badminton Game Rackets."
                   className={`${Styles.imageStyle} pointer`}
                 />
               </div>
